@@ -26,16 +26,6 @@ const lightTheme = createTheme({
   logo: {
     width: "40px",
   },
-  // components:{
-  //   MuiContainer:{
-  //   styleOverrides:{
-  //                   root:{
-  //                       border:"1px solid black",
-  //                       borderRadius:8,
-  //           },
-  //           },
-  //         },
-  // },
   typography: {
     breakpoints: {
       values: {
@@ -90,6 +80,7 @@ const lightTheme = createTheme({
     },
     fontFamily: "Lato",
   },
+  
 });
 
 export default lightTheme;
