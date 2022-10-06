@@ -78,7 +78,7 @@ Case Studies
 </Typography>
   </Grid>
 <Grid item xs={12} md={12} lg={12} mb={8}>
-  <Card className="cardBorder"  sx={{ display: 'flex',}}>
+  <Card square ={false} className="MuiPaper-rounded" sx={{ display: 'flex',}}>
       <Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
           <Typography component="div" variant="h3" className="cardHeader">
@@ -109,7 +109,7 @@ Case Studies
 </Grid>
 
 <Grid item xs={12} md={12} lg={12} mb={8}>
-<Card className="cardBorder" sx={{ display: 'flex',}}>
+<Card square={false} className="MuiPaper-rounded" sx={{ display: 'flex',}}>
 <Box p={1} sx={{ display: 'flex', flexDirection: 'column', width:'66.66%' }}>
         <CardContent sx={{ flex: '1 0 auto',  }}>
           <Typography component="div" variant="h3" className="cardHeader">
