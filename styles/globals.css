@@ -50,7 +50,7 @@ nav .contactButton:hover{
   font-size: clamp(1.502rem, -.1026rem + 1.233, 1.802rem);
 }
 .MuiTypography-body1{
-  font-size: clamp(1rem, -.1026rem + 1.233vw, 1.02rem); 
+  font-size: clamp(.9rem, -.1026rem + 1.233vw, 1rem); 
 }
 .MuiTypography-body2{
   font-size: clamp(1rem, -.1026rem + 1.233vw, 1.02rem); 
@@ -138,7 +138,7 @@ background-position: center;
 	box-shadow: 2px 2px 16px rgba(197, 196, 196, 0.5)  ; 
 	-webkit-box-shadow: 2px 2px 16px rgba(151, 149, 149, 0.5)  ; 
 	-moz-box-shadow: 2px 2px 16px rgba(177, 175, 175, 0.5)  ; 
-  border-radius: 4px;
+  border-radius: 1rem;
   color:'#fff';
   background: rgb(250, 249, 249);
 /*background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(11,11,11,1) 100%);*/

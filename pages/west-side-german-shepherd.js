@@ -5,18 +5,18 @@ import { Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import myLoader from '../components/Loader';
-
+import Meta from '../components/Meta';
 
 const WestSide = () => {
-  
   return (
-    <Container maxWidth={false} mt={0} disableGutters={true}>
+    <div>
+    <Meta title='West-Side German Shepherd Rescue'/>
   <Paper square={true} className="wgsrHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
         <Box mt={8} component="div" ml={2} display="flex" justifyContent="center" alignItems="center">
   <Grid container spacing={2}>
      <Grid item xs={12} lg={12}>   
          <Box component="div" mt={4} mb={3} sx={{textAlign:'center', height:'152px'}}>
-        <Typography variant="h1" className="header" mb={3}>WGSR User Experience &amp; Website Redesign</Typography>
+        <Typography variant="h1" className="header" mb={3}>Digital Dog Adoption Solution</Typography>
                <Typography variant="body1">A complete redesign and improved user experience for West Side German Shepher Rescue.</Typography>              
            </Box>
             
@@ -295,7 +295,7 @@ client(West Side German Shepherd Rescue -shepresue.org), to create a delightful 
         
 		</Grid>
 	  </Box>
-    </Container>
+  </div>
   )
 }
 

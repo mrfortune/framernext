@@ -6,6 +6,7 @@ import Divider from '@mui/material/Divider';
 import Image from 'next/image';
 import {borders} from '@mui/system';
 import myLoader from '../components/Loader';
+import Meta from '../components/Meta';
 
 const commonStyles = {
   bgcolor: '#e7e6e2',
@@ -17,6 +18,9 @@ const commonStyles = {
 
 const FadeDesign = () => {
   return (
+    <div>
+<Meta ttile='Fade Solutions Case Study'/>
+   
     <Box component="div">
   <Paper square={true} className="fadeHero" mt={0} sx={{minHeight:'50vh', color:'#fff'}}>
         <Box mt={8} ml={2} mr={2} component="div" display="flex" justifyContent="center" alignItems="center">
@@ -276,6 +280,7 @@ We began our process by sketching low fidelity wireframes with pen and paper.  S
 		</Grid>
 	  </Box>
     </Box>
+    </div>
   )
 }
 

@@ -4,9 +4,8 @@ import {Box, ThemeProvider, Button, Container, Typography} from '@mui/material';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import lightTheme from "../styles/theme/lightTheme";
-import MdPhone from '@mui/icons-material/Phone';
-import Chip from '@mui/material/Chip';
 import { global } from 'styled-jsx/css';
+import Meta from '../components/Meta';
 
 function Mailto({ email, subject, body, ...props }) {
 	return (
@@ -17,7 +16,9 @@ function Mailto({ email, subject, body, ...props }) {
   }
   
 const Contact = () => {
-	  return(		
+	  return(	
+		  <div>
+		  <Meta title='Contact'/>
 	<Box className="contact" component="div" direction="row" display="flex" mt={15} mb={2} justifyContent="center" sx={{minHeight:'300px'}}>
 	<Grid container spacing={2} sx={{maxWidth:'md', marginLeft: '0', }}>
 	
@@ -37,7 +38,7 @@ Contact Us
 	
 	</Grid>
 	</Box>
-
+</div>
 	  )
   }
 export default Contact

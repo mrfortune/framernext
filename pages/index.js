@@ -8,12 +8,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from "framer-motion"
 import { NextUIProvider } from '@nextui-org/react';
-
+import Meta from '../components/Meta';
 
 export default function Home() {
   return (
     <div>
-
+<Meta title='WorldShaker Interactive:Home'/>
 <Box component="div" className="homeHero" padding={0}  mb={10}  direction="row" display='flex' alignItems='center' justifyContent='center'> 
 <Box component="div" p={2}  sx={{maxWidth:'md'}}>
 
