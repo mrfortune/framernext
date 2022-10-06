@@ -52,7 +52,9 @@ nav .contactButton .active {
 nav .contactButton:hover {
   background-color: none;
 }
-
+.MuiTypography-h1.display {
+  font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 2.280rem);
+}
 .MuiTypography-h1 {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 1.802rem);
 }

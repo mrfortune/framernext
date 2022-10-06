@@ -17,6 +17,7 @@ import Layout from "../components/Layout";
 
 let theme = createTheme();
 theme = responsiveFontSizes(lightTheme);
+
 const clientSideEmotionCache = createEmotionCache();
 function MyApp({
   Component,
