@@ -118,7 +118,12 @@ a {
     rgba(166, 137, 249, 1) 100%
   );
 }
-
+.lineClamp{
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
 .navBG {
   background: rgb(11, 11, 11);
   background: linear-gradient(

@@ -157,7 +157,7 @@ export default function Home() {
                   <Typography
                     component="div"
                     variant="h3"
-                    className="cardHeader"
+                    className="lineClamp"
                   >
                     Fade Technology Solutions
                   </Typography>
@@ -166,6 +166,7 @@ export default function Home() {
                     color="text.secondary"
                     mb={3}
                     component="div"
+                    className="lineClamp"
                   >
                     Explore the process of designing a B2B dashboard with
                     data-visualization and ad campaign management tools.
@@ -206,7 +207,7 @@ export default function Home() {
                   <Typography
                     component="div"
                     variant="h3"
-                    className="cardHeader"
+                    className="lineClamp"
                   >
                     West Side German Shepherd Rescue
                   </Typography>
@@ -215,6 +216,7 @@ export default function Home() {
                     color="text.secondary"
                     component="div"
                     mb={3}
+                    className="lineClamp"
                   >
                     Let's walk through the dog adoption process that we explored
                     and the assumptions, insights, and final design of

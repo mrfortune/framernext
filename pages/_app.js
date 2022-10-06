@@ -15,6 +15,8 @@ import "../styles/globals.css";
 // import '@nextcss/reset';
 import Layout from "../components/Layout";
 
+let theme = createTheme();
+theme = responsiveFontSizes(lightTheme);
 const clientSideEmotionCache = createEmotionCache();
 function MyApp({
   Component,
@@ -23,7 +25,7 @@ function MyApp({
 }) {
   return (
     <CacheProvider value={emotionCache}>
-      <ThemeProvider theme={lightTheme}>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <Layout>
           <Component {...pageProps} />
