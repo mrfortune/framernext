@@ -1,24 +1,36 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { CacheProvider } from '@emotion/react';
-import { ThemeProvider, CssBaseline, createTheme, Container, responsiveFontSizes } from '@mui/material';
+import React from "react";
+import PropTypes from "prop-types";
+import createEmotionCache from "../utility/createEmotionCache";
+import { CacheProvider } from "@emotion/react";
+import {
+  ThemeProvider,
+  CssBaseline,
+  createTheme,
+  Container,
+  responsiveFontSizes,
+} from "@mui/material";
 //import createEmotionCache from '../utility/createEmotionCache';
-import lightTheme from '../styles/theme/lightTheme';
-import '../styles/globals.css';
+import lightTheme from "../styles/theme/lightTheme";
+import "../styles/globals.css";
 // import '@nextcss/reset';
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 
-
-function MyApp({ Component, pageProps}){
-  return(
-    <ThemeProvider theme={lightTheme}>
-  <CssBaseline />
-  <Layout>
- <Component {...pageProps} />
-  </Layout>
-  </ThemeProvider>
-  
-  )
+const clientSideEmotionCache = createEmotionCache();
+function MyApp({
+  Component,
+  emotionCache = clientSideEmotionCache,
+  pageProps,
+}) {
+  return (
+    <CacheProvider value={emotionCache}>
+      <ThemeProvider theme={lightTheme}>
+        <CssBaseline />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ThemeProvider>
+    </CacheProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
