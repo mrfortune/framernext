@@ -135,10 +135,10 @@ background-position: center;
 .cardBorder{
   background: #b4b3b3; 
 	border: solid #b1b0b0 1px; 
-	box-shadow: 2px 2px 16px rgba(197, 196, 196, 0.5)  ; 
-	-webkit-box-shadow: 2px 2px 16px rgba(151, 149, 149, 0.5)  ; 
-	-moz-box-shadow: 2px 2px 16px rgba(177, 175, 175, 0.5)  ; 
-  border-radius: 1rem;
+	box-shadow: 2px 2px 1rem rgba(197, 196, 196, 0.5)  ; 
+	-webkit-box-shadow: 2px 2px 1rem rgba(151, 149, 149, 0.5)  ; 
+	-moz-box-shadow: 2px 2px 1rem rgba(177, 175, 175, 0.5)  ; 
+  border-radius: 1rem !important;
   color:'#fff';
   background: rgb(250, 249, 249);
 /*background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(11,11,11,1) 100%);*/
@@ -153,16 +153,6 @@ padding:10px;
 border:2px solid #ccc;
 
 }
-/* .wgsrHome{
-background-image: linear-gradient(to bottom, rgba(11,11,11,.8) 0%, rgba(65,65,65,.81) 52%, rgba(42,42,42,.81) 100%),
-url('/assets/wgsr_hero.png');
-height:auto;
-background-size: cover;
-width:100%;
-color:whitesmoke;
-min-height:360px;
-background-position: center;
-} */
 .homeHero{
 background-image:url('/assets/bg_new.png');
 color:whitesmoke;
