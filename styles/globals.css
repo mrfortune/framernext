@@ -54,12 +54,23 @@ nav .contactButton:hover {
 }
 .MuiTypography-h1.display {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 2.280rem);
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .MuiTypography-h1 {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 1.802rem);
 }
 .MuiTypography-body1 {
   font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
+}
+.MuiTypography-body1.headerBody {
+  font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .MuiTypography-body2 {
   font-size: clamp(.8rem, -0.1026rem + 3.189vw, 1.02rem);
@@ -215,6 +226,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-bottom: 1px solid #553c9a;
 }
 .whatWeDo {
   background-image: url("/assets/whatwedologosbg.png");

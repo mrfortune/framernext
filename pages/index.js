@@ -36,12 +36,13 @@ export default function Home() {
         <Box component="div" p={2} sx={{ maxWidth: "md" }}>
           <Box
             component="div"
-            sx={{ display: "block", width: "60%", height: "30vh" }}
+            sx={{ display: "block", width: "45%", height: "30vh" }}
           >
             <Typography variant="h1" className="display" mb={2} sx={{ fontSize:'2.280rem', color: "#fafafa" }}>
               Data-Driven Design for Humans.
             </Typography>
             <Typography
+            className="headerBody"
               variant="body1"
               mb={2}
               sx={{
