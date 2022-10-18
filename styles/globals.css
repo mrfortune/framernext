@@ -217,7 +217,6 @@ a {
 }
 .homeHero {
   background-image: url("/assets/Desktop1440_bg.png");
-  color: whitesmoke;
   position: relative;
   padding: 8px;
   height: 100vh;
@@ -290,8 +289,14 @@ ul.ulStyle li {
   color: aliceblue;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 428px) {
+  .homeHero {
+    background-image: url("/assets/iPhone428.png");
+    padding: 8px;
+    height: auto;
+    min-height: 45rem;
+    border-bottom: 1px solid #553c9a;
+  }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -303,7 +308,6 @@ ul.ulStyle li {
 @media only screen and (max-width: 768px) {
   .homeHero {
     background-image: url("/assets/Tablet768.png");
-    position: relative;
     padding: 8px;
     height: auto;
     min-height: 45rem;
@@ -312,7 +316,7 @@ ul.ulStyle li {
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:900px) {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
     position: relative;
@@ -327,6 +331,17 @@ ul.ulStyle li {
 @media only screen and (max-width:1440px) {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
+    position: relative;
+    padding: 8px;
+    height: 100vh;
+    width: 100vw;
+    min-height: 45rem;
+    border-bottom: 1px solid #553c9a;
+  }
+}
+@media only screen and (min-width:1440px) and (max-width:1920px) {
+  .homeHero {
+    background-image: url("/assets/Desktop1920_bg.png");
     position: relative;
     padding: 8px;
     height: 100vh;
