@@ -216,7 +216,6 @@ a {
   border: 2px solid #ccc;
 }
 .homeHero {
-  background-image: url("/assets/Desktop1440_bg.png");
   position: relative;
   padding: 8px;
   height: 100vh;
@@ -225,7 +224,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border-bottom: 1px solid #553c9a;
 }
 .whatWeDo {
   background-image: url("/assets/whatwedologosbg.png");
@@ -289,13 +287,12 @@ ul.ulStyle li {
   color: aliceblue;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 428px) {
+@media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
     background-image: url("/assets/iPhone428.png");
     padding: 8px;
     height: auto;
     min-height: 45rem;
-    border-bottom: 1px solid #553c9a;
   }
 } 
 
@@ -305,30 +302,35 @@ ul.ulStyle li {
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width:600) and (max-width: 768px) {
+@media only screen and (min-width:600px) and (max-width:768px) {
   .homeHero {
-    background-image: url("/assets/Tablet768.png");
+    background-image: url("/assets/Tablet768_bg.png");
     padding: 8px;
     height: auto;
     min-height: 45rem;
-    border-bottom: 1px solid #553c9a;
   }
 } 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width:900px) {
+@media only screen and (min-width:768px) and (max-width:900px) {
+  .homeHero {
+    background-image: url("/assets/Desktop1440_bg.png");
+    padding: 8px;
+    height: auto;
+    min-height: 45rem;
+  }
+} 
+/* Large devices (lops/desktops, 992px and up) */
+@media only screen and (min-width:900px) and (max-width:1200px) {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
     position: relative;
     padding: 8px;
     height: auto;
     min-height: 45rem;
-    border-bottom: 1px solid #553c9a;
   }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width:1440px) {
+@media only screen and (min-width:1200px) and (max-width:1440px) {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
     position: relative;
@@ -336,7 +338,6 @@ ul.ulStyle li {
     height: 100vh;
     width: 100vw;
     min-height: 45rem;
-    border-bottom: 1px solid #553c9a;
   }
 }
 @media only screen and (min-width:1440px) and (max-width:1920px) {
@@ -347,7 +348,6 @@ ul.ulStyle li {
     height: 100vh;
     width: 100vw;
     min-height: 45rem;
-    border-bottom: 1px solid #553c9a;
   }
 }
 @media (prefers-color-scheme: dark) {
