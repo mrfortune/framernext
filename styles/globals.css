@@ -224,6 +224,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-bottom: 1px solid rgb(177, 174, 174);
+  box-shadow: 0 8px 6px -6px rgb(173, 173, 173);
 }
 .whatWeDo {
   background-image: url("/assets/whatwedologosbg.png");
@@ -289,9 +291,8 @@ ul.ulStyle li {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
-    background-image: url("/assets/iPhone428.png");
+    background-image: url("/assets/iPhone428_bg.png");
     padding: 8px;
-    height: auto;
     min-height: 45rem;
   }
 } 
@@ -306,7 +307,6 @@ ul.ulStyle li {
   .homeHero {
     background-image: url("/assets/Tablet768_bg.png");
     padding: 8px;
-    height: auto;
     min-height: 45rem;
   }
 } 
@@ -314,7 +314,6 @@ ul.ulStyle li {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
     padding: 8px;
-    height: auto;
     min-height: 45rem;
   }
 } 
@@ -324,7 +323,6 @@ ul.ulStyle li {
     background-image: url("/assets/Desktop1440_bg.png");
     position: relative;
     padding: 8px;
-    height: auto;
     min-height: 45rem;
   }
 } 
