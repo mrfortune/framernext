@@ -36,7 +36,10 @@ export default function Home() {
         <Box component="div" p={2} sx={{ maxWidth: "md" }}>
           <Box
             component="div"
-            sx={{ display: "block", width: "35%", height:'auto' }}
+            sx={{ display: "block", 
+            width:{xs:'100%', sm:'33%', md:'33%', lg:'33%', xl:'33%'}, 
+            textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
+            height:'auto',}}
           >
             <Typography variant="h1" className="display" mb={2} sx={{ fontSize:'2.280rem', color: "#fafafa" }}>
               Data-Driven Design for Humans.

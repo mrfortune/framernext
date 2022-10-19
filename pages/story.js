@@ -13,7 +13,7 @@ import Meta from "../components/Meta";
 const Story = () => {
   return (
     <div>
-      <Meta title="Story" />
+      <Meta title="WorldShaker Interactive:Story" />
       <Box
         component="div"
         mt={15}
