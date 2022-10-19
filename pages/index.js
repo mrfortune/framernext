@@ -36,6 +36,7 @@ export default function Home() {
         <Box component="div" p={2} sx={{ maxWidth: "md" }}>
           <Box
             component="div"
+            mt={2}
             sx={{ display: "block", 
             width:{xs:'100%', sm:'33%', md:'33%', lg:'33%', xl:'33%'}, 
             textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
