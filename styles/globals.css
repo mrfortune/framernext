@@ -218,6 +218,8 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   width: 100%;
   min-height: calc(100vh - 4rem);
   background-size: cover;
+  background-color: rgb(27,27,27);
+/*background: linear-gradient(180deg, rgba(27,27,27,1) 63%, rgba(182,76,235,1) 86%, rgba(245,237,247,1) 100%); */
   background-repeat: no-repeat;
   background-position: center center;
   border-bottom: 1px solid rgb(177, 174, 174);
