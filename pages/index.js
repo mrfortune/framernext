@@ -85,13 +85,20 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} sm={12} lg={12}>
-            <Box
+          <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+/>
+            <motion.Box
               component="div"
               ml={0}
               className="whatWeDo"
               height="100%"
               display="flex"
-            ></Box>
+              initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+            ></motion.Box>
+            
           </Grid>
         </Grid>
       </Box>
