@@ -32,21 +32,22 @@ const Story = () => {
         >
           <Grid item xs={12} md={12} lg={12} xl={12}>
             <Typography variant="h1" className="header" mb={6}>
-              Story
+              The Story
             </Typography>
             <Typography variant="h2" mb={2}>
               <Box component="span" sx={{ fontWeight: "400" }}>
-                Robert S. Harris
+                Robert S. Harris: UI/UX Developer &amp; Designer | Design Thinking Practitioner |
+              Product Manager
               </Box>
             </Typography>
-            <Typography
+            {/* <Typography
               variant="subtitle1"
               mb={1}
               sx={{ textTransform: "none", fontWeight: "600" }}
             >
-              UX Engineer &amp; Designer | Design Thinking Practitioner |
-              Aspiring Product Manager
-            </Typography>
+              UI/UX Developer &amp; Designer | Design Thinking Practitioner |
+              Product Manager
+            </Typography> */}
             <Box
               component="span"
               display="flex"
