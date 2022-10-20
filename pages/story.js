@@ -60,12 +60,12 @@ const Story = () => {
             >
               <Link href="/assets/RobertSHarris.pdf">
                 <a>
-                  <DownloadIcon sx={{ fontSize: 40 }} />
+                  <DownloadIcon sx={{ fontSize: 32 }} />
                 </a>
               </Link>
               <Link href="http://linkedin.com/in/robertsharris">
                 <a>
-                  <LinkedInIcon sx={{ fontSize: 40 }} />
+                  <LinkedInIcon sx={{ fontSize: 32 }} />
                 </a>
               </Link>
             </Box>
