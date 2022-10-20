@@ -296,21 +296,18 @@ ul.ulStyle li {
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-} 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width:600px) and (max-width:768px) {
   .homeHero {
-    background-image: url("/assets/Tablet768_bg.png");
+    background-image: url("https://worldshaker.imgix.net//assets/Tablet768_bg.png");
     padding: 8px;
     min-height: 45rem;
   }
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+    background-image: url("https://worldshaker.imgix.net//assets/Desktop1440_bg.png");
     padding: 8px;
     min-height: 45rem;
   }
@@ -318,7 +315,7 @@ ul.ulStyle li {
 /* Large devices (lops/desktops, 992px and up) */
 @media only screen and (min-width:900px) and (max-width:1200px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+    background-image: url("https://worldshaker.imgix.net/assets/Desktop1440_bg.png");
     position: relative;
     padding: 8px;
     min-height: 45rem;
@@ -328,7 +325,7 @@ ul.ulStyle li {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width:1200px) and (max-width:1440px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+    background-image: url("https://worldshaker.imgix.net//assets/Desktop1440_bg.png");
     position: relative;
     padding: 8px;
     height: 100vh;
@@ -338,7 +335,7 @@ ul.ulStyle li {
 }
 @media only screen and (min-width:1440px) and (max-width:1920px) {
   .homeHero {
-    background-image: url("/assets/Desktop1920_bg.png");
+    background-image: url("https://worldshaker.imgix.net//assets/Desktop1920_bg.png");
     position: relative;
     padding: 8px;
     height: 100vh;
