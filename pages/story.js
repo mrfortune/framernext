@@ -81,8 +81,8 @@ const Story = () => {
             </Grid>
           <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
-              I am a UX engineer, architech, designer and design thinking
-              practitioner. I have worked for large brands successfully
+              I am a UI/UX developer, designer, researcher, design thinking
+              practitioner, producer, and product manager. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products
               and solutions for their customers and accomplishing business
               goals. I work in collaboration with stakeholders, and
