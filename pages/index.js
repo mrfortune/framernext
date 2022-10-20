@@ -85,7 +85,7 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} sm={12} lg={12}>
-            <motion.Box
+            <Box
               component="div"
               ml={0}
               className="whatWeDo"
@@ -93,7 +93,7 @@ export default function Home() {
               display="flex"
               initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
-            ></motion.Box>
+            ></Box>
             
           </Grid>
         </Grid>
