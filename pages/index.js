@@ -38,7 +38,7 @@ export default function Home() {
             component="div"
             mt={2}
             sx={{ display: "block", 
-            width:{xs:'100%', sm:'33%', md:'33%', lg:'33%', xl:'33%'}, 
+            width:{xs:'100%', sm:'40%', md:'45%', lg:'45%', xl:'45%'}, 
             textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
             height:'auto',}}
           >

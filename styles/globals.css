@@ -54,7 +54,7 @@ nav .contactButton:hover {
 }
 .MuiTypography-h1.display {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 2.280rem);
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  background-image: linear-gradient(to left, #efecf8, #e8d4fa);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -67,7 +67,7 @@ nav .contactButton:hover {
 }
 .MuiTypography-body1.headerBody {
   font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
-  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  background-image: linear-gradient(to left, #efecf8, #e8d4fa);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -138,12 +138,8 @@ a {
   overflow: hidden;
 }
 .navBG {
-  background: rgb(11, 11, 11);
-  background: linear-gradient(
-    356deg,
-    rgba(11, 11, 11, 1) 0%,
-    rgba(65, 65, 65, 1) 52%,
-    rgba(42, 42, 42, 1) 100%
+  background: rgb(27,27,27);
+background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, rgba(10,10,10,1) 100%
   );
 }
 .fadeHero {
@@ -348,12 +344,4 @@ ul.ulStyle li {
     min-height: 45rem;
   }
 }
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+

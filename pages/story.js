@@ -9,6 +9,8 @@ import DownloadIcon from "@mui/icons-material/Download";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Link from "next/link";
 import Meta from "../components/Meta";
+import myLoader from "../components/Loader";
+import Image from "next/image";
 
 const Story = () => {
   return (
@@ -28,7 +30,7 @@ const Story = () => {
           spacing={2}
           sx={{ paddingLeft: "16px", maxWidth: "md" }}
         >
-          <Grid item xs={11} md={8} lg={9}>
+          <Grid item xs={12} md={12} lg={12} xl={12}>
             <Typography variant="h1" className="header" mb={6}>
               Story
             </Typography>
@@ -67,7 +69,16 @@ const Story = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item mt={2} xs={11} md={8} lg={9}>
+          <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
+          <Image
+              loader={myLoader}
+              src="MeHeader.png"
+              alt=""
+              width="1280px"
+              height="360px"
+            ></Image>
+            </Grid>
+          <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
               I am a UX engineer, architech, designer and design thinking
               practitioner. I have worked for large brands successfully
@@ -111,7 +122,7 @@ const Story = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item xs={1} md={4} lg={3}></Grid>
+       
       </Box>
     </div>
   );
