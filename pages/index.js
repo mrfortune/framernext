@@ -85,10 +85,6 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} sm={12} lg={12}>
-          <motion.div
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-/>
             <motion.Box
               component="div"
               ml={0}
