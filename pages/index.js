@@ -91,8 +91,7 @@ export default function Home() {
               className="whatWeDo"
               height="100%"
               display="flex"
-              initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
+              
             ></Box>
             
           </Grid>
