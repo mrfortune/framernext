@@ -34,12 +34,23 @@ const Story = () => {
             <Typography variant="h1" className="header" mb={6}>
               The Story
             </Typography>
+            <Grid item xs={9} md={9} lg={9} xl={9}>
             <Typography variant="h2" mb={2}>
               <Box component="span" sx={{ fontWeight: "400" }}>
-                Robert S. Harris: UI/UX Developer &amp; Designer | Design Thinking Practitioner |
-              Product Manager
+                Robert S. Harris: UI/UX Designer &amp; Developer | UX Researcher | Design Thinking Practitioner |
+            
               </Box>
             </Typography>
+            </Grid>
+            <Grid item xs={3} md={3} lg={3} xl={3}>
+            <Image
+              loader={myLoader}
+              src="Me2.png"
+              alt=""
+              width="300px"
+              height="300px"
+            ></Image>
+              </Grid>
             {/* <Typography
               variant="subtitle1"
               mb={1}
@@ -70,15 +81,7 @@ const Story = () => {
               </Link>
             </Box>
           </Grid>
-          <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
-          <Image
-              loader={myLoader}
-              src="MeHeader.png"
-              alt=""
-              width="1280px"
-              height="360px"
-            ></Image>
-            </Grid>
+         
           <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
               I am a UI/UX developer, designer, researcher, design thinking
