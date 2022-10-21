@@ -85,6 +85,11 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} sm={12} lg={12}>
+          <motion.div
+  initial={{ opacity: 0 }}
+    transition={{ease: "easeOut", duration: 2.5 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}>
             <Box
               component="div"
               ml={0}
@@ -93,6 +98,7 @@ export default function Home() {
               display="flex"
               
             ></Box>
+            </motion.div>
             
           </Grid>
         </Grid>
@@ -121,6 +127,11 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} lg={12}>
+          <motion.div
+  initial={{ opacity: 0 }}
+  transition={{ duration: 2.5 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}>
             <Box
               component="div"
               ml={0}
@@ -128,6 +139,7 @@ export default function Home() {
               height="100%"
               display="flex"
             ></Box>
+            </motion.div>
           </Grid>
         </Grid>
       </Box>
@@ -147,6 +159,12 @@ export default function Home() {
             </Typography>
           </Grid>
           <Grid item xs={12} md={12} lg={12} mb={8}>
+          <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 2.5 }}
+  >
             <Card
               square={false}
               className="MuiPaper-rounded"
@@ -194,9 +212,16 @@ export default function Home() {
                 alt="Fade Technology Solutions"
               />
             </Card>
+            </motion.div>
           </Grid>
 
           <Grid item xs={12} md={12} lg={12} mb={8}>
+          <motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 2.5 }}
+  >
             <Card
               square={false}
               className="MuiPaper-rounded"
@@ -245,6 +270,7 @@ export default function Home() {
                 alt="WGSR"
               />
             </Card>
+            </motion.div>
           </Grid>
         </Grid>
       </Box>
