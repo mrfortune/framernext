@@ -32,29 +32,13 @@ const Story = () => {
           sx={{ paddingLeft: "16px", maxWidth: "md" }}
         >
           <Grid item xs={12} md={12} lg={12} xl={12}>
-            <Typography variant="h1" className="header" mb={6}>
+            <Typography variant="h1" mb={6}>
               The Story
             </Typography>
-          </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-            <Image
-              loader={myLoader}
-              src="RHarris.png"
-              alt="Robert Harris"
-              width="1280px"
-              height="360px"
-            ></Image>
-              </Grid>
-              <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-            {/* <Typography
-              variant="subtitle1"
-              mb={1}
-              sx={{ textTransform: "none", fontWeight: "600" }}
-            >
-              UI/UX Developer &amp; Designer | Design Thinking Practitioner |
-              Product Manager
-            </Typography> */}
-            <Box
+            <Typography variant="h2"  mb={2}>
+              Robert S. Harris, Design Thinking Practitioner | UI/UX Designer &amp; Developer | UX Researcher
+            </Typography>
+             <Box
               component="span"
               display="flex"
               alignItems="center"
@@ -76,10 +60,30 @@ const Story = () => {
               </Link>
             </Box>
           </Grid>
-         
-          <Grid item mt={2} xs={12} sm={12} md={12} lg={12} xl={12}>
+           
+              <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+            {/* <Typography
+              variant="subtitle1"
+              mb={1}
+              sx={{ textTransform: "none", fontWeight: "600" }}
+            >
+              UI/UX Developer &amp; Designer | Design Thinking Practitioner |
+              Product Manager
+            </Typography> */}
+           
+          </Grid>
+          <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+            <Image
+              loader={myLoader}
+              src="RSHarris.png"
+              alt="Robert Harris"
+              width="599px"
+              height="599px"
+            ></Image>
+              </Grid>
+          <Grid item xs={9} sm={9} md={9} lg={9} xl={9}>
             <Typography mb={2} variant="body1">
-              I am a UI/UX developer, designer, researcher, design thinking
+              Hi, folks! I'm Robert Harris. I am a UI/UX developer, designer, researcher, design thinking
               practitioner, producer, and product manager. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products
               and solutions for their customers and accomplishing business
