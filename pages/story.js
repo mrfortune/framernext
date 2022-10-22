@@ -72,7 +72,7 @@ const Story = () => {
             </Typography> */}
            
           </Grid>
-          <Grid item xs={3} sm={3} md={3} lg={3} xl={3}>
+          <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
             <Image
               loader={myLoader}
               src="RSHarris.png"
@@ -81,7 +81,7 @@ const Story = () => {
               height="599px"
             ></Image>
               </Grid>
-          <Grid item xs={9} sm={9} md={9} lg={9} xl={9}>
+          <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
             <Typography mb={2} variant="body1">
               Hi, folks! I'm Robert Harris. I am a UI/UX developer, designer, researcher, design thinking
               practitioner, producer, and product manager. I have worked for large brands and start-ups successfully
