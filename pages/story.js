@@ -11,6 +11,7 @@ import Link from "next/link";
 import Meta from "../components/Meta";
 import myLoader from "../components/Loader";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Story = () => {
   return (
@@ -73,13 +74,19 @@ const Story = () => {
            
           </Grid>
           <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
+          <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.8 }}
+  >
             <Image
               loader={myLoader}
               src="RSHarris.png"
               alt="Robert Harris"
               width="599px"
               height="599px"
-            ></Image>
+            ></Image> 
+            </motion.div>
               </Grid>
           <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
             <Typography mb={2} variant="body1">
