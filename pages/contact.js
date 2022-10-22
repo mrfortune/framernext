@@ -24,7 +24,7 @@ function Mailto({ email, subject, body, ...props }) {
 const Contact = () => {
   return (
     <div>
-      <Meta title="WorldShaker Interactive:Contact" />
+      <Meta title="WorldShaker Interactive::Contact" />
       <Box
         className="contact"
         component="div"

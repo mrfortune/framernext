@@ -22,7 +22,7 @@ import Meta from "../components/Meta";
 export default function Home() {
   return (
     <div>
-      <Meta title="WorldShaker Interactive:Home" />
+      <Meta title="WorldShaker Interactive::Home" />
       <Box
         component="div"
         className="homeHero"
@@ -55,8 +55,7 @@ export default function Home() {
                 textTransform: "none",
               }}
             >
-              UX/UI design and engineering practioners who focus on identifying
-              user pain-points and problems and designing solutions that work.
+              UI/UX designers, developers, and design thinking practitioners who apply a data-driven, human-centered design approach to solving problems.
             </Typography>
             <Button
               color="primary"

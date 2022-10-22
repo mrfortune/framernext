@@ -19,7 +19,7 @@ const commonStyles = {
 const FadeDesign = () => {
   return (
     <div>
-      <Meta title="Fade Solutions Case Study" />
+      <Meta title="Case study::Fade Solutions Case Study" />
         <Paper
           square={true}
           className="fadeHero"
@@ -90,10 +90,10 @@ const FadeDesign = () => {
                     <Grid item xs={12} sm={3} md={3} lg={3}>
                       <Typography variant="body2">What I Did</Typography>
                       <Typography variant="body1">
-                        My priciple role was Information Architect and I
+                        My principal role was Information Architect and I
                         collaborated on research and visual design. I drew low
-                        fidelity sketches in design studio, designed site maps
-                        and conducted usability testing.
+                        fidelity sketches in our design studio workshop, designed site maps, user flows, 
+                        and conducted usability testing to validate prototypes.
                       </Typography>
                     </Grid>
                   </Grid>

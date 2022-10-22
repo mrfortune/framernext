@@ -15,7 +15,7 @@ import Image from "next/image";
 const Story = () => {
   return (
     <div>
-      <Meta title="WorldShaker Interactive:Story" />
+      <Meta title="WorldShaker Interactive::Story" />
       <Box
         component="div"
         mt={15}
@@ -27,6 +27,7 @@ const Story = () => {
         <Grid
           container
           pl={1}
+          pr={2}
           spacing={2}
           sx={{ paddingLeft: "16px", maxWidth: "md" }}
         >
@@ -38,7 +39,7 @@ const Story = () => {
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Image
               loader={myLoader}
-              src="MeHeader.png"
+              src="Me.png"
               alt="Robert Harris"
               width="1280px"
               height="360px"

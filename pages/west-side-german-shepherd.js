@@ -10,7 +10,7 @@ import Meta from "../components/Meta";
 const WestSide = () => {
   return (
     <div>
-      <Meta title="West-Side German Shepherd Rescue" />
+      <Meta title="Case Study::West-Side German Shepherd Rescue" />
       <Paper
         square={true}
         className="wgsrHero"
@@ -38,7 +38,7 @@ const WestSide = () => {
                 </Typography>
                 <Typography variant="body1">
                   A complete redesign and improved user experience for West Side
-                  German Shepher Rescue.
+                  German Shepherd Rescue.
                 </Typography>
               </Box>
             </Grid>
@@ -55,7 +55,7 @@ const WestSide = () => {
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">Client </Typography>
                     <Typography variant="body1">
-                      West Side German Shepherd Rescue - sheprescue.org{" "}
+                      West Side German Shepherd Rescue - sheprescue.org
                     </Typography>
                   </Grid>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
@@ -76,10 +76,10 @@ const WestSide = () => {
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">What I Did</Typography>
                     <Typography variant="body1">
-                      My priciple role was Information Architect and I
+                      My principal role was Information Architect and I
                       collaborated on research and visual design. I drew low
                       fidelity sketches with pencil and paper, designed site
-                      maps and conducted usability testing.
+                      maps, user flows and conducted usability testing.
                     </Typography>
                   </Grid>
                 </Grid>
@@ -164,10 +164,10 @@ const WestSide = () => {
                 1. Tell me about your experience of finding and adopting your
                 dog online.
                 <ul>
-                  <li>a. Website used</li>
-                  <li>b. Timeline (from first search to adoption)</li>
-                  <li>c. Adoption application process</li>
-                  <li>d. Retrieving dog</li>
+                  <li>Website used</li>
+                  <li>Timeline (from first search to adoption)</li>
+                  <li>Adoption application process</li>
+                  <li>Retrieving dog</li>
                 </ul>
               </li>
               <li>What drew you to your dog specifically?</li>
@@ -180,12 +180,10 @@ const WestSide = () => {
                 Why did you use (website they answered in survey) over other
                 websites?
                 <ul>
-                  <li>
-                    a. Was there anything that stood out to you as something the
+                  <li>Was there anything that stood out to you as something the
                     site did well?
                   </li>
-                  <li>
-                    b. Was there anything that stood out to you as something the
+                  <li>Was there anything that stood out to you as something the
                     site did not do well?
                   </li>
                 </ul>
@@ -206,7 +204,7 @@ const WestSide = () => {
           </Grid>
           <Grid item xs={12} sm={12} lg={12} mb={8}>
             <Typography variant="h2" className="header">
-              2.User Survey{" "}
+              2.User Survey
             </Typography>
             <Typography variant="body1">
               We created a survey and solicited parcipants to participate via
@@ -281,10 +279,10 @@ const WestSide = () => {
               </li>
               <li>
                 Lots of small text links, looks very similar to desktop footer
-                -social media links are Gap branded and easy to understand
+                -social media links are branded and easy to understand
                 -dropdowns easy to spot
               </li>
-              <li></li>
+             
             </Box>
             <Box component="div" mb={6}>
               <Image
@@ -328,13 +326,6 @@ const WestSide = () => {
               width="1280px"
             ></Image>
           </Grid>
-          {/* <Grid item xs={12} md={12} lg={12} mb={8}>
-      
-        <Typography variant="h2" className="header">Journey Map</Typography>
-                    
-                  
-     
-        </Grid> */}
 
           <Grid item xs={12} lg={12} mb={8}>
             <Typography variant="h5" className="header">
