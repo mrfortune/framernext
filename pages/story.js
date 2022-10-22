@@ -39,7 +39,7 @@ const Story = () => {
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Image
               loader={myLoader}
-              src="Me.png"
+              src="RHarris.png"
               alt="Robert Harris"
               width="1280px"
               height="360px"
