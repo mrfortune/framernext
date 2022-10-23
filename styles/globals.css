@@ -175,6 +175,12 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   color: whitesmoke;
   min-height: 180px;
 }
+.MuiIconButton-root{
+  background-color: #fff;
+}
+.MuiIconButton-root:hover{
+  background-color: #b4b3b3;
+}
 .wgsrHero {
   /*background: rgb(11,11,11);*/
   background-image: linear-gradient(
