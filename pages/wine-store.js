@@ -32,12 +32,10 @@ const WineStore = () => {
                 sx={{ textAlign: "center", height: "152px" }}
               >
                 <Typography variant="h1" sx={{ fontSize: "3.0rem" }}>
-                  {" "}
-                  Dashboard UI/UX Solution
+                 Modern Digital Wine Buying Experience
                 </Typography>
                 <Typography variant="body1">
-                  Publisher, agency, brand and ad campaign management dashboard
-                  solution.
+                 
                 </Typography>
               </Box>
             </Grid>
@@ -50,7 +48,7 @@ const WineStore = () => {
                   </Grid>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">Year</Typography>
-                    <Typography variant="body1">2021</Typography>
+                    <Typography variant="body1">2022</Typography>
                   </Grid>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">Role</Typography>
@@ -63,8 +61,8 @@ const WineStore = () => {
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">What I Did</Typography>
                     <Typography variant="body1">
-                      For this project I was the UX reseracher, architect
-                      product designer.
+                      For this project I was the User Reseracher, Information Architect
+                      and Product Designer. I 
                     </Typography>
                   </Grid>
                 </Grid>
@@ -81,21 +79,19 @@ const WineStore = () => {
         alignItems="center"
         sx={{ flexGrow: 1, px: 3 }}
       >
-        <Grid container mt={6} spacing={0} sx={{ width: "740px" }}>
+        <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
           <Grid item xs={12} md={12} lg={12}>
-            <Typography variant="h5">Problem</Typography>
+            <Typography variant="h5">Overview</Typography>
             <Typography variant="h2">
               BK Wine Cellar's Needs a Well Designed Website
             </Typography>
             <Typography variant="body1">
-              Local wine lovers want to be able to search the site –
-              bkwinecellar.com - by region, categories and varietals so that
-              they can easily find and purchase their favorite wine/s and have
-              it delivered.
+               Wine lovers in the Prospect Lefferts Gardens area need a site for the new wine store so that they can discover new wines and search
+             by region, categories and varietals and have wines delivered to their locations.
             </Typography>
           </Grid>
 
-          <Grid item xs></Grid>
+         
 
           <Grid item xs={12} lg={12} md={12}>
             <Typography variant="h5">Approach</Typography>
@@ -103,18 +99,13 @@ const WineStore = () => {
               Let's Get Together and Order Wine
             </Typography>
             <Typography variant="body1">
-              My journey of discovery began on Easter Sunday, April 2021, where
+              My journey of discovery began with a gathering of wine drinkers where
               I organized a dinner party with a group of women ranging in age
-              from 30-45. My first insight was that all of the women ordered
-              their wine form various local wine stores but all of them were
-              order by their mobile phones. I asked them about their experience
-              with buying wine and how they normally go about the process. We
-              talked about the the websites of local retailers and what they
-              felt about the sites.
+              from 30-45.
             </Typography>
           </Grid>
           <Grid item xs={12} lg={12} mt={5}>
-            <Typography variant="h4">3. Closed Card-Sorting</Typography>
+            <Typography variant="h2">3. Closed Card-Sorting</Typography>
             <Typography variant="h2">Tell Us How To Architect</Typography>
             <Typography variant="body1">
               Through the closed card-sort process users gave me insights into
@@ -134,7 +125,7 @@ const WineStore = () => {
             </Typography>
           </Grid>
           <Grid item xs={12} lg={4}>
-            <Typography variant="h4">User Flow</Typography>
+            <Typography variant="h2">User Flow</Typography>
             <Typography variant="body1">
               My assumptions are that our users want to be able to search and/or
               go directly to the wine varietals, regions and coutries to easily

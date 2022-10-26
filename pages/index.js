@@ -264,6 +264,7 @@ export default function Home() {
                 component="img"
                 width="300"
                 height="225"
+                background-size="cover"
                 sx={{ width: 300 }}
                 image="/assets/wgsrcardimage.png"
                 alt="WGSR"
