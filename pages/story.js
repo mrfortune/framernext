@@ -90,8 +90,7 @@ const Story = () => {
               </Grid>
           <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
             <Typography mb={2} variant="body1">
-              Hi, folks! I'm Robert Harris. I am a UI/UX developer, designer, researcher, design thinking
-              practitioner, producer, and product manager. I have worked for large brands and start-ups successfully
+              Hi, folks! I'm Robert Harris. I am a Product Designer. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products
               and solutions for their customers and accomplishing business
               goals. I work in collaboration with stakeholders, and

@@ -5,11 +5,12 @@ import { Typography } from "@mui/material";
 import Divider from "@mui/material/Divider";
 import Image from "next/image";
 import Meta from "../components/Meta";
+import myLoader from "../components/Loader";
 
 const WineStore = () => {
   return (
     <div>
-      <Meta title="BK Wine Cellar" />
+      <Meta title="Case Study::West-Side German Shepherd Rescue" />
       <Paper
         square={true}
         className="fadeHero"
@@ -23,8 +24,8 @@ const WineStore = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Grid container spacing={0}>
-            <Grid item xs={12} lg={12}>
+          <Grid container spacing={2}>
+          <Grid item xs={12} lg={12}>
               <Box
                 component="div"
                 mt={4}
@@ -40,10 +41,18 @@ const WineStore = () => {
               </Box>
             </Grid>
             <Grid item xs={12} lg={12}>
-              <Box component="div" p={6} sx={{ flexgrow: "1" }}>
-                <Grid container spacing={2}>
+            <Box
+                component="div"
+                p={2}
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+                sx={{ flexgrow: "1" }}
+              >
+                
+                <Grid container spacing={2} sx={{ maxWidth: "md" }}>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
-                    <Typography variant="body2">Project </Typography>
+                    <Typography variant="body2">Client </Typography>
                     <Typography variant="body1">Bk Wine Cellar </Typography>
                   </Grid>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
@@ -52,17 +61,18 @@ const WineStore = () => {
                   </Grid>
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">Role</Typography>
-
-                    <ul sx={{ marginLeft: "0" }}>
-                      <li>Information Architect &amp; Research</li>
-                    </ul>
+<Box component="ul" className="ulStyle">
+                    
+                      <li>User Research, Information Architect &amp; Visual Designer</li>
+                    
+                    </Box>
                   </Grid>
 
                   <Grid item xs={12} sm={3} md={3} lg={3}>
                     <Typography variant="body2">What I Did</Typography>
                     <Typography variant="body1">
-                      For this project I was the User Reseracher, Information Architect
-                      and Product Designer. I 
+                      My roles on this project was User Reseracher, Information Architect
+                      and Product Designer.  
                     </Typography>
                   </Grid>
                 </Grid>
@@ -82,64 +92,132 @@ const WineStore = () => {
         <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
           <Grid item xs={12} md={12} lg={12}>
             <Typography variant="h5">Overview</Typography>
-            <Typography variant="h2">
-              BK Wine Cellar's Needs a Well Designed Website
-            </Typography>
+          
+            <Typography variant="h2">About This Project</Typography>
+           
             <Typography variant="body1">
-               Wine lovers in the Prospect Lefferts Gardens area need a site for the new wine store so that they can discover new wines and search
-             by region, categories and varietals and have wines delivered to their locations.
+              A group of entrepreneurs is opening a new wine store in the Prospect-Lefferts Gardens area to serve an up and coming corridor that does not have any wine stores. As they build out the store they have also engaged WorldShaker, Inc. to design a custom e-commerce solution that speaks to their users and customers. They offer a very curated wine experience to their clients and want to mirror that experience in the user experience on the website.
             </Typography>
           </Grid>
+          <Grid item xs={12} lg={12} md={12} mb={8}>
+              <Typography variant="h2">
+                The Problem
+              </Typography>
 
-         
-
-          <Grid item xs={12} lg={12} md={12}>
-            <Typography variant="h5">Approach</Typography>
-            <Typography variant="h2">
-              Let's Get Together and Order Wine
+              <Typography variant="body1">
+                The Brooklyn Winery needs an e-commerce solution so that their customers can seacrh their online wine inventory and order wine/s for pick up or for local delivery.
+              </Typography>
+              <Typography variant="h2">
+              How Might We...?
             </Typography>
             <Typography variant="body1">
-              My journey of discovery began with a gathering of wine drinkers where
-              I organized a dinner party with a group of women ranging in age
-              from 30-45.
+              How might we design an updated experience of .
+            </Typography>
+            </Grid>
+         
+            <Grid item xs={12} lg={12} md={12} mb={5}>
+            <Typography variant="h5">THE PROCESS & SOLUTION</Typography>
+          </Grid>
+          
+          <Grid item xs={12} lg={12} md={12}>
+            <Typography variant="h2">
+              Research
+            </Typography>
+            <Typography variant="body1">
+              I recruited a group of people through my social-media network who I know to be wine enthusiasts. I got 9 replies to my posts and seleted 5 people to join me for interviews. My respondents consisted of 5 African American women, ages 35-45, who live in or near the area where the store is being built.
+            </Typography>
+            <Typography variant="body1">
+              My goal was to conduct a contextual inquiry as my research method, and ask questions about their experiences ordering wine and using other wine sites. 
             </Typography>
           </Grid>
           <Grid item xs={12} lg={12} mt={5}>
-            <Typography variant="h2">3. Closed Card-Sorting</Typography>
-            <Typography variant="h2">Tell Us How To Architect</Typography>
+            <Typography variant="h2">Closed Card-Sorting</Typography>
             <Typography variant="body1">
-              Through the closed card-sort process users gave me insights into
+              Through the closed card-sorting process users gave me insights into
               how the navigation should be organized. I gave users specific
-              wines from multiple countires and categories to place the 75 wines
-              items into. I designed our navigation, search filters and pages
-              from these insights. The choice of using a closed sort was to
-              limit the categories to how wines are grouped in the industry by
-              professionals.
+              wines from the top countries, regions, and varietals to place into. As advised by the sommelier wines should be organzed by those categories.
             </Typography>
           </Grid>
-
+          <Grid item xs={12} lg={12} md={12} xl={12} mt={5}>
+            <Box component="div" mb={6}>
+              <Image
+                loader={myLoader}
+                src="Malikka.jpg"
+                className="imageBorderradius"
+                alt="Competitors"
+                height="695px"
+                width="900px"
+              ></Image>
+            </Box>
+           
+          </Grid>
+          <Grid item xs={12} lg={12} md={12} xl={12} mt={5}>
+            <Box component="div" mb={6}>
+              <Image
+                loader={myLoader}
+                src="FarrahD.jpg"
+                className="imageBorderradius"
+                alt="Competitors"
+                height="695px"
+                width="900px"
+              ></Image>
+            </Box>
+           
+          </Grid>
+          <Grid item xs={12} lg={12} md={12} xl={12} mt={5}>
+            <Box component="div" mb={6}>
+              <Image
+                loader={myLoader}
+                src="DanielleT.jpg"
+                className="imageBorderradius"
+                alt="Competitors"
+                height="695px"
+                width="900px"
+              ></Image>
+            </Box>
+          </Grid>
+          <Grid item xs={12} lg={12} mt={5}>
+            <Typography variant="h2">Competitve Analysis</Typography>
+            <Box component="div" mb={6}>
+              <Image
+                loader={myLoader}
+                src="Malikka.jpg"
+                className="imageBorderradius"
+                alt="Competitors"
+                height="695px"
+                width="900px"
+              ></Image>
+            </Box>
+          </Grid>
+          <Grid item xs={12} lg={12} mt={5}>
+          <Typography variant="h2">Persona</Typography>
+          <Box component="div" mb={6}>
+              <Image
+                loader={myLoader}
+                src="BKWinePersona.jpg"
+                className="imageBorderradius"
+                alt="Persona"
+                height="695px"
+                width="900px"
+              ></Image>
+            </Box>
+          </Grid>
           <Grid item xs={12} lg={12} mt={5}>
             <Typography variant="h5">Design</Typography>
             <Typography variant="h2">
-              Design for Search, Navigation, Checkout and Delivery
+              Wireframe
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={4}>
+          <Grid item xs={12} lg={12}>
             <Typography variant="h2">User Flow</Typography>
             <Typography variant="body1">
-              My assumptions are that our users want to be able to search and/or
-              go directly to the wine varietals, regions and coutries to easily
-              find what wines they are looking to purchase. If a user is signed
-              up he/she can see the wines that they bought and repurchase
-              it/them.{" "}
+              
             </Typography>
             <Typography variant="body1">
-              No matter what choice the user makes, they will be able now check
-              out and complete their purchase online and select delivery to a
-              selected address.
+              
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={4}>
+          <Grid item xs={12} lg={12}>
             <Typography variant="h5">Visual Design</Typography>
             <Typography variant="h2">Design System</Typography>
             <Typography variant="body1">
@@ -191,19 +269,7 @@ const WineStore = () => {
             </Typography>
           </Grid>
 
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-
-          <Grid item xs={12} lg={12} mt={5}></Grid>
-
-          <Grid item xs={12} lg={12} mt={5}></Grid>
+         
         </Grid>
       </Box>
     </div>
