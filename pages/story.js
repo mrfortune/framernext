@@ -37,7 +37,7 @@ const Story = () => {
               The Story
             </Typography>
             <Typography variant="h2"  mb={2}>
-              Robert S. Harris, Design Thinking Practitioner &amp; Product Designer
+              Robert S. Harris<br/> <span>Design Thinking Practitioner &amp; Product Designer</span>
             </Typography>
              <Box
               component="span"

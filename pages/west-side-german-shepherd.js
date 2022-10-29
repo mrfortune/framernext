@@ -6,7 +6,30 @@ import Divider from "@mui/material/Divider";
 import Image from "next/image";
 import myLoader from "../components/Loader";
 import Meta from "../components/Meta";
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 
+function createData(criteria, test, evaluation) 
+{
+  return { criteria, test, evaluation };
+}
+const rows = [
+  createData("Visibility of system status ", "Always keep users informed about what is going on.Provide appropriate feedback within reasonable time.", 
+  "Pass. Site is up and running as expected and loads quickly."),
+  createData("Match between system and the real world ", "•	Speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.", "Fails. The website speaks the user’s language, but some information is out of order or not as well organized as it could be for users to find what they are searching for."),
+  createData("User control and freedom ", "•	Users often choose system functions by mistake.Provide a clearly marked out to leave an unwanted state without having to go through an extended dialogue. Support undo and redo", "Fails. Hard to find and get to where you want to be."),
+  createData("Consistency and standards ", "•	Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.", "Fails. The site is totally inconsistent in the design across pages and navigation."),
+  createData("Error prevention ", "•	Even better than good error messages is a careful design which prevents a problem from occurring in the first place.", "Fails. A user could easily get lost in the site and not be sure of where they are."),
+  createData("Recognition rather than recall ", "•	Make objects, actions, and options visible. User should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.", "Fails."),
+  ,createData("Flexibility and efficiency of use ", "•	Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user so that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.", "Fails."),
+  createData("Aesthetic and minimalist design ", "•	Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.", "Fails. Too much information on the home page laid out and formatted inconsistently. Your attention is drawn all over the page. No visual hierarchy established."),
+  createData("Help users recognize, diagnose, and recover from errors ", "•	Expressed in plain language (no codes) Precisely indicate the problem Constructively suggest a solution. ", "Fails."),
+  createData("Help and documentation", "•	Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Help  information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.", "Fails. They provide an FAQ page, but the formatting makes it confusing to read and absorb the information.")
+ ];
 const WestSide = () => {
   return (
     <div>
@@ -33,7 +56,7 @@ const WestSide = () => {
                 mb={3}
                 sx={{ textAlign: "center", height: "152px" }}
               >
-                <Typography variant="h1" className="header" mb={3}>
+                <Typography variant="h1"  mb={3}>
                   Digital Dog Adoption Solution
                 </Typography>
                 <Typography variant="body1">
@@ -100,7 +123,7 @@ const WestSide = () => {
         <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
           <Grid item xs={12} md={12} lg={12} mb={8}>
             <Typography variant="h5">Overview</Typography>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               About This Project
             </Typography>
 
@@ -110,15 +133,27 @@ const WestSide = () => {
               Shepherd Rescue -shepresue.org), to create a delightful experience
               for the persona(s) we defined through research.
             </Typography>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               The Problem
             </Typography>
             <Typography variant="body1">
               German shepherd lovers need a more personable and updated way to
               select an animal rescue in order to find a german shepherd to add
-              to her family.
+              to her family. One look at sheprescue.org and you can see that this 
+              site design is 20 years old.
             </Typography>
-            <Typography variant="h2" className="header">
+            <Box component="div" mt={6} mb={6}>
+            <Image
+              loader={myLoader}
+              className="imageBorderradius"
+              src="wgsrpresent.png"
+              alt=""
+              width="900px"
+              height="705px"
+            >
+              </Image>
+              </Box>
+            <Typography variant="h2" >
               How Might We...?
             </Typography>
             <Typography variant="body1">
@@ -133,35 +168,58 @@ const WestSide = () => {
           </Grid>
 
           <Grid item xs={12} lg={12} md={12} mb={5}>
-            <Typography variant="h5">THE PROCESS & SOLUTION</Typography>
+            <Typography variant="h5">Discover</Typography>
           </Grid>
-          <Grid item xs={12} lg={12} md={12} mb={8}>
+          <Grid item xs={12} lg={12} md={12} xl={12} mb={8}>
+          <Box component="div" mb={6}>
             <Image
               loader={myLoader}
-              src="dtprocess.png"
+              className="imageBorderradius"
+              src="dthinking.png"
               alt=""
               width="1280px"
-              height="215px"
-            ></Image>
+              height="202px"
+            >
+            </Image>
+            </Box>
           </Grid>
 
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              Research
-            </Typography>
-
             <Typography variant="body1">
-              Our research process consiuted of user surveys, heuristic
-              analysyt, competitive analysis, comparative analysis.
+              Our research process consisted of user surveys, interviews heuristic
+              analyst, competitive analysis, and comparative analysis.
+            </Typography> 
+            <Typography variant="h2">
+              1.Heuristic Analysis
             </Typography>
+            <TableContainer component={Paper}>
+     <Table aria-label="simple table">
+       <TableHead>
+         <TableRow>
+           <TableCell align="left">Criteria</TableCell>
+           <TableCell align="left">Test&nbsp;</TableCell>
+           <TableCell align="left">Evaluation&nbsp;</TableCell>
+         </TableRow>
+       </TableHead>
+       <TableBody>
+         {rows.map((row) => (
+           <TableRow key={row.number}>
+             <TableCell align="left" fontWeight="500">{row.criteria}</TableCell>
+             <TableCell align="left">{row.test}</TableCell>
+             <TableCell align="left">{row.evaluation}</TableCell>
+           </TableRow>
+         ))}
+       </TableBody>
+     </Table>
+   </TableContainer>
           </Grid>
           <Grid item xs={12} md={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              1. User Interviews Questions
+            <Typography variant="h2" >
+              2. User Interview Questions
             </Typography>
             <Box component="ul" className="ulStyle" cmb={6} sx={{}}>
               <li>
-                1. Tell me about your experience of finding and adopting your
+                Tell me about your experience of finding and adopting your
                 dog online.
                 <ul>
                   <li>Website used</li>
@@ -203,17 +261,20 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              2.User Survey
+            <Typography variant="h2" >
+              3.User Survey
             </Typography>
             <Typography variant="body1">
               We created a survey and solicited parcipants to participate via
               social media platforms.
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              3. Competitive Analysis
+          <Grid item xs={12} sm={12} lg={12} xl={12} mb={8}>
+        
+            </Grid>
+          <Grid item xs={12} lg={12} xl={12} lg={12} mb={8}>
+            <Typography variant="h2" >
+              4. Competitive Analysis
             </Typography>
             <Typography variant="body1">
               We searched for dog rescue sites and one can see the stark
@@ -263,8 +324,8 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              3. Comparative Analysis
+            <Typography variant="h2" >
+              5. Comparative Analysis
             </Typography>
             <Typography variant="body1">
               We also looked at sites that are not competitor and gatehred a few
@@ -272,7 +333,7 @@ const WestSide = () => {
               onthe mobile versions of those sites for our analysis.
             </Typography>
             <Typography variant="body1">A few takeaways:</Typography>
-            <Box component="ul">
+            <Box component="ul" className="ulStyle">
               <li>
                 Don't include entire global navigation, but do include some
                 dropdowns
@@ -284,10 +345,11 @@ const WestSide = () => {
               </li>
              
             </Box>
-            <Box component="div" mb={6}>
+            <Box component="div" mb={6} className="imageBorderradius">
               <Image
                 loader={myLoader}
                 src="WGSRComparative-Analysis-1.png"
+                
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="695px"
@@ -296,8 +358,8 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
-              4. Affinity Mapping &amp; Data Synthesis
+            <Typography variant="h2" >
+              6. Affinity Mapping 
             </Typography>
             <Typography variant="body1"></Typography>
             <Box component="div" className="imageBorderradius">
@@ -313,10 +375,15 @@ const WestSide = () => {
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
+          <Typography variant="h5" >
+              Define
+            </Typography>
+            <Typography variant="h2" >
               Persona
             </Typography>
-
+            <Typography variant="body1" >
+              Carol Olsen, a teacher, and tech savvy dog lover needs a process that makes it very easy to adopt a german-shepherd.
+            </Typography>
             <Image
               loader={myLoader}
               className="imageBorderradius"
@@ -326,13 +393,13 @@ const WestSide = () => {
               width="1280px"
             ></Image>
           </Grid>
-
+          
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h5" className="header">
+            <Typography variant="h5" >
               Design
             </Typography>
 
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Design for Search, Dog Bio and Adoption Application
             </Typography>
 
@@ -344,7 +411,7 @@ const WestSide = () => {
           </Grid>
 
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               User Flow
             </Typography>
             <Typography variant="body1"> </Typography>
@@ -360,7 +427,7 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Site Map
             </Typography>
             <Box component="div" className="imageBorderradius">
@@ -375,7 +442,7 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Sketches
             </Typography>
             <Box component="div" className="imageBorderradius" mb={6}>
@@ -420,10 +487,10 @@ const WestSide = () => {
             </Box>
           </Grid>
           <Grid item xs={12} lg={12} mb={8}>
-            <Typography variant="h5" className="header">
+            <Typography variant="h5" >
               Visual Design
             </Typography>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Mid-fidelity Wireframes
             </Typography>
             <Typography variant="body1">
@@ -455,7 +522,7 @@ const WestSide = () => {
           </Grid>
 
           <Grid item xs={12} lg={12} mt={5}>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Hi-Fidelity Wireframes
             </Typography>
             <Typography variant="body1">
@@ -485,10 +552,10 @@ const WestSide = () => {
           </Grid>
 
           <Grid item xs={12} lg={12} mt={5}>
-            <Typography variant="h5" className="header">
+            <Typography variant="h5" >
               Results & Reflections
             </Typography>
-            <Typography variant="h2" className="header">
+            <Typography variant="h2" >
               Fantastic Redesign with Future Improvements to Come
             </Typography>
             <Typography variant="body1">

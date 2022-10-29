@@ -53,17 +53,17 @@ nav .contactButton:hover {
   background-color: none;
 }
 .MuiTypography-h1.display {
-  font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 2.280rem);
+  font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 3.052rem);
   background-image: linear-gradient(to bottom, #fbf7fc, #fad4fa);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
 .MuiTypography-h1 {
-  font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 1.802rem);
+  font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 3.052rem);
 }
 .MuiTypography-body1 {
-  font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
+  font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1.025rem);
 }
 .MuiTypography-body1.headerBody {
   font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
@@ -77,19 +77,22 @@ nav .contactButton:hover {
   font-size: clamp(.8rem, -0.1026rem + 3.189vw, 1.02rem);
 }
 .MuiTypography-h2 {
-  font-size: clamp(1.324rem, -0.1026rem + 3.189vw, 1.602rem);
+  font-size: clamp(1.324rem, -0.1026rem + 3.189vw, 2.441rem);
+}
+.MuiTypography-h2 span{
+  font-weight: 200;
 }
 .MuiTypography-h3 {
-  font-size: clamp(1.266rem, -0.1026rem + 3.189vw, 1.424rem);
+  font-size: clamp(1.266rem, -0.1026rem + 3.189vw, 1.953rem);
 }
 .MuiTypography-h3.cardHeader {
-  font-size: clamp(1rem, -0.239rem + 3.189vw, 1.424rem);
+  font-size: clamp(1rem, -0.239rem + 3.189vw, 1.953rem);
 }
 .MuiTypography-h4 {
-  font-size: clamp(1.025rem, -0.1026rem + 3.189vw, 1.266rem);
+  font-size: clamp(1.025rem, -0.1026rem + 3.189vw, 1.563rem);
 }
 .MuiTypography-h5 {
-  font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.125rem);
+  font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.25rem);
 }
 .MuiTypography-subtitle1 {
   font-size: clamp(0.875rem, -0.1026rem + 3.189vw, 1.02rem);
@@ -103,7 +106,16 @@ a {
   display: flex;
   height: calc(100vh - 248px);
 }
-
+.MuiTableCell-head{
+  font-weight: 600;
+}
+.MuiTableCell-body{
+  text-transform: none;
+  font-weight: 400;
+}
+.MuiTableCell-root{
+  font-size:1rem;
+}
 .firstBG {
   background: rgb(11, 11, 11);
   background: linear-gradient(
@@ -215,7 +227,7 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 }
 .imageBorderradius {
   border-radius: 1rem;
-  padding: 10px;
+  padding: 16px;
   border: 2px solid #ccc;
 }
 .homeHero {

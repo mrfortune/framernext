@@ -129,7 +129,7 @@ const FadeDesign = () => {
               </Typography>
             </Grid>
             <Grid item xs={12} lg={12} md={12} mb={8}>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 The Problem
               </Typography>
 
@@ -140,14 +140,14 @@ const FadeDesign = () => {
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} lg={12} md={12}>
-              <Typography variant="h5">The Process &amp; Solution</Typography>
+              <Typography variant="h5">Discovery</Typography>
             </Grid>
             <Grid item xs={12} lg={12} md={12} mb={8}>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 The Project Brief
               </Typography>
               <Typography variant="body1">
-                The Fade executives and techs came to us with a detailed project
+                The Fade executives and technology teams came to us with a detailed project
                 brief, inclding how their system worked for publishers,
                 agencies, brands and admins and examples of Facebook Business
                 Suite and Snapchat's Business dashboard. We did not have access
@@ -164,7 +164,7 @@ const FadeDesign = () => {
             </Grid>
 
             <Grid item xs={12} lg={12} mb={8}>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 Competitive Analysis
               </Typography>
               <Typography variant="body1">
@@ -203,7 +203,7 @@ const FadeDesign = () => {
             </Grid>
 
             <Grid item xs={12} lg={12} md={12} mb={8}>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 Comparative Analysis
               </Typography>
               <Typography variant="body1">
@@ -253,7 +253,7 @@ const FadeDesign = () => {
             </Grid>
 
             <Grid item xs={12} lg={12} mb={8}>
-              <Typography variant="h2" className="header" mb={4}>
+              <Typography variant="h2"  mb={4}>
                 Persona:Meet Pamela Wu
               </Typography>
               <Box
@@ -274,7 +274,10 @@ const FadeDesign = () => {
             </Grid>
 
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-              <Typography variant="h2" className="header">
+            <Typography variant="h5">
+                Define
+              </Typography>
+              <Typography variant="h2">
                 Journey Map
               </Typography>
               <Typography variant="body1">
@@ -300,7 +303,7 @@ const FadeDesign = () => {
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
               <Typography variant="h5">Design</Typography>
-
+              <Typography variant="h2">Design Thinking Workshop</Typography>
               <Typography variant="body1">
                 We began our process by sketching low fidelity wireframes with
                 pen and paper. Since the brief informed us of what the dashboard
@@ -312,12 +315,12 @@ const FadeDesign = () => {
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2">
                 User Flows
               </Typography>
               <Typography variant="body1">
                 Fades user flow was touched on earlier at the journey map but
-                here is a bit more detail showing how users would navigate on
+                here is a bit more detail showing how some users navigate on
                 the platform. We focused on the primary flow, which is the
                 'Sign-Up' process for the platform. Below are the user flows
                 that we designed.
@@ -416,7 +419,7 @@ const FadeDesign = () => {
 
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
               <Typography variant="h5">Visual Design</Typography>
-              <Grid item xs={12} lg={12} md={12} mb={8}>
+             
                 <Box
                   component="div"
                   display="flex"
@@ -433,7 +436,7 @@ const FadeDesign = () => {
                     alt="Fade Login"
                   ></Image>
                 </Box>
-              </Grid>
+             
               <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
                 <Box
                   component="div"
@@ -452,7 +455,7 @@ const FadeDesign = () => {
                   ></Image>
                 </Box>
               </Grid>
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 Simple and Intuitive Dashboard
               </Typography>
               <Typography variant="body1">
@@ -534,6 +537,7 @@ const FadeDesign = () => {
               </Box>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+            <Typography variant="h5">Testing</Typography>
               <Typography variant="h2">Usability Testing</Typography>
               <Typography variant="body1">
                 Finally, we conducted qualitative usability testing sessions
@@ -561,7 +565,7 @@ const FadeDesign = () => {
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
               <Typography variant="h5">Results & Reflections</Typography>
 
-              <Typography variant="h2" className="header">
+              <Typography variant="h2" >
                 Work With What You Have
               </Typography>
               <Typography variant="body1">

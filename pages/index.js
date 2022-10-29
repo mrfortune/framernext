@@ -38,11 +38,11 @@ export default function Home() {
             component="div"
             mt={2}
             sx={{ display: "block", 
-            width:{xs:'100%', sm:'40%', md:'45%', lg:'45%', xl:'45%'}, 
+            width:{xs:'100%', sm:'40%', md:'45%', lg:'55%', xl:'55%'}, 
             textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
             height:'auto',}}
           >
-            <Typography variant="h1" className="display" mb={2} sx={{ fontSize:'2.280rem', color: "#fafafa" }}>
+            <Typography variant="h1" className="display" mb={2} sx={{ color: "#fafafa" }}>
               Data-Driven Design for Humans.
             </Typography>
             <Typography
@@ -50,8 +50,7 @@ export default function Home() {
               variant="body1"
               mb={2}
               sx={{
-                color: "#fafafa",
-                fontWeight: "400",
+                fontWeight: "500",
                 textTransform: "none",
               }}
             >
@@ -201,7 +200,7 @@ export default function Home() {
                   </Button>
                 </CardContent>
               </Box>
-              <CardMedia
+              {/* <CardMedia
                 component="img"
                 height="225"
                 width="300"
@@ -209,7 +208,7 @@ export default function Home() {
                 background-size="cover"
                 image="/assets/fadecardImage.png"
                 alt="Fade Technology Solutions"
-              />
+              /> */}
             </Card>
             </motion.div>
           </Grid>
@@ -260,7 +259,7 @@ export default function Home() {
                 </CardContent>
               </Box>
 
-              <CardMedia
+              {/* <CardMedia
                 component="img"
                 width="300"
                 height="225"
@@ -268,7 +267,7 @@ export default function Home() {
                 sx={{ width: 300 }}
                 image="/assets/wgsrcardimage.png"
                 alt="WGSR"
-              />
+              /> */}
             </Card>
             </motion.div>
           </Grid>

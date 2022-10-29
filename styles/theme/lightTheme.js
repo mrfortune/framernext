@@ -41,30 +41,30 @@ const lightTheme = createTheme({
       },
     },
     h1: {
-      fontFamily: "Merriweather",
-      fontSize: "1.802rem",
+      // fontFamily: "Merriweather",
+      fontSize: "3.052rem",
       fontWeight: 800,
     },
 
     h2: {
-      fontFamily: "Merriweather",
-      fontWeight: 400,
-      fontSize: "1.602rem",
-      marginBottom: "1.75rem",
+      // fontFamily: "Merriweather",
+      fontWeight: 600,
+      fontSize: "2.441rem",
+      marginBottom: "1.5rem",
     },
     h3: {
-      fontFamily: "Merriweather",
-      fontSize: "1.424rem",
+      // fontFamily: "Merriweather",
+      fontSize: "1.953rem",
     },
     h4: {
-      fontFamily: "Merriweather",
-      fontSize: "1.266rem",
+      // fontFamily: "Merriweather",
+      fontSize: "1.563",
     },
     h5: {
       fontSize: "1.125rem",
       textTransform: "uppercase",
-      fontWeight: "500",
-      marginBottom: "5rem",
+      fontWeight: "600",
+      marginBottom: "6rem",
       textAlign: "center",
     },
     body1: {
