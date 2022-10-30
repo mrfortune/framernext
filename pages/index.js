@@ -33,7 +33,7 @@ export default function Home() {
         alignItems="center"
         justifyContent="center"
       >
-        <Box component="div" sx={{ maxWidth: "md" }}>
+        <Box component="div" sx={{ maxWidth: "md", width:'900px'}}>
           <Box
             component="div"
             mt={2}
@@ -42,7 +42,7 @@ export default function Home() {
             textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
             height:'auto',}}
           >
-            <Typography variant="h1" className="display" mb={2} sx={{ color: "#fafafa" }}>
+            <Typography variant="h1" className="display" mb={2} >
               Data-Driven Design for Humans.
             </Typography>
             <Typography
@@ -76,7 +76,7 @@ export default function Home() {
         component="div"
       >
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid item pl={0} xs={12} sm={12} md={12} lg={12}>
+          <Grid className="noPadding" ml={2} item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               What We Do
             </Typography>
@@ -109,7 +109,7 @@ export default function Home() {
         justifyContent="center"
       >
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
+          <Grid item className="noPadding" ml={2} xs={12} sm={12} md={12} lg={12}>
             <Typography
               variant="h2"
               mb={4}
@@ -145,13 +145,13 @@ export default function Home() {
         display="flex"
         justifyContent="center"
       >
-        <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
+        <Grid container spacing={2} sx={{ maxWidth: "md", marginRight:'2rem', marginLeft:'2rem' }}>
+          <Grid item className="noPadding" xs={12} ml={2} sm={12} md={12} lg={12}>
             <Typography variant="h2" sx={{ color: "#333" }}>
               Case Studies
             </Typography>
           </Grid>
-          <Grid item xs={12} md={12} lg={12} mb={8}>
+          <Grid item xs={12} mr={2} md={12} lg={12} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -208,7 +208,7 @@ export default function Home() {
             </motion.div>
           </Grid>
 
-          <Grid item xs={12} md={12} lg={12} mb={8}>
+          <Grid className="noPadding" item ml={2} mr={2} xs={12} md={12} lg={12} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}

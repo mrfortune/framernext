@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  line-height: 1.5;
-  font-family: "Lato", "Abril";
+  line-height: 1rem;
+  letter-spacing: .1rem;
+  font-family: "futura-pt", "Abril";
 }
 html,
 body {
@@ -11,12 +12,12 @@ body {
   height: 100%;
 }
 a:-webkit-any-link {
-  font-family: "Lato", "Abril";
+  font-family: "futura-pt", "Abril";
   text-decoration: none;
   cursor: pointer;
+  font-size:1rem;
   /*color:rgb(48, 48, 238);*/
 }
-
 body {
   margin: 0;
   background: rgb(253, 252, 252);
@@ -63,10 +64,10 @@ nav .contactButton:hover {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 3.052rem);
 }
 .MuiTypography-body1 {
-  font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1.025rem);
+  font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.025rem);
 }
 .MuiTypography-body1.headerBody {
-  font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
+  font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.2rem);
   background-image: linear-gradient(to bottom, #fbf7fc, #fad4fa);
   color: transparent;
   font-weight:600;
@@ -74,7 +75,7 @@ nav .contactButton:hover {
   -webkit-background-clip: text;
 }
 .MuiTypography-body2 {
-  font-size: clamp(.8rem, -0.1026rem + 3.189vw, 1.02rem);
+  font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.02rem);
 }
 .MuiTypography-h2 {
   font-size: clamp(1.324rem, -0.1026rem + 3.189vw, 2.441rem);
@@ -115,6 +116,9 @@ a {
 }
 .MuiTableCell-root{
   font-size:1rem;
+}
+.MuiGrid-root > .MuiGrid-item.noPadding{
+  padding-left:0px;
 }
 .firstBG {
   background: rgb(11, 11, 11);
@@ -218,10 +222,8 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   padding-left:0;
   margin-right:0;
   margin-left:0;
-}
-.MuiGrid-root > .MuiGrid-item{
-  padding-left:0px;
-}
+} 
+
 .MuiToolbar-root{
   padding-left:0px;
   padding-right:0px;
@@ -359,12 +361,20 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
+  .MuiContainer-root{
+    margin-right:1rem;
+    margin-left:1rem;
+  }
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
   .homeHero {
     background-image: url("/assets/Desktop1440_bg.png");
     padding: 8px;
     min-height: 45rem;
+  }
+  .MuiContainer-root{
+    margin-right:1rem;
+    margin-left:1rem;
   }
 } 
 /* Large devices (lops/desktops, 992px and up) */

@@ -22,7 +22,7 @@ const Story = () => {
         component="div"
         mt={15}
         mb={15}
-        direction="row"
+        // direction="row"
         display="flex"
         justifyContent="center"
       >
@@ -31,48 +31,12 @@ const Story = () => {
           spacing={2}
           sx={{  maxWidth: "md" }}
         >
-          <Grid item xs={12} md={12} lg={12} xl={12}>
+          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h1" mb={6}>
               The Story
             </Typography>
-            <Typography variant="h2"  mb={2}>
-              Robert S. Harris<br/> <span>Design Thinking Practitioner &amp; Product Designer</span>
-            </Typography>
-             <Box
-              component="span"
-              display="flex"
-              alignItems="center"
-              sx={{
-                "& > :not(style)": {
-                  mr: 1,
-                },
-              }}
-            >
-              {/* <Link href="/assets/RobertSHarris.pdf">
-                <a>
-                  <DownloadIcon sx={{ fontSize: 32 }} />
-                </a>
-              </Link> */}
-              <Link href="http://linkedin.com/in/robertsharris">
-                <a>
-                  <LinkedInIcon sx={{ fontSize: 32 }} />
-                </a>
-              </Link>
-            </Box>
-          </Grid>
-           
-              <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mr="0">
-            {/* <Typography
-              variant="subtitle1"
-              mb={1}
-              sx={{ textTransform: "none", fontWeight: "600" }}
-            >
-              UI/UX Developer &amp; Designer | Design Thinking Practitioner |
-              Product Manager
-            </Typography> */}
-           
-          </Grid>
-          <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
+          </Grid>      
+          <Grid className="noPadding" item xs={4} sm={4} md={4} lg={4} xl={4}>
           <motion.div
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -89,14 +53,34 @@ const Story = () => {
               loader={myLoader}
               src="RSHarris.png"
               alt="Robert Harris"
-              width="599px"
-              height="599px"
+              width="300px"
+              height="300px"
             ></Image> 
             </motion.div>
               </Grid>
           <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
+          <Box
+              component="div"
+              display="flex"
+              alignItems="center"
+        justifyContent="left"
+        textAlign="left" 
+        height='100%'
+            >
+              <Box component="div" height="50%">
+          <Typography variant="h2" mb={2}>
+              Robert S. Harris
+            </Typography>
+            <Typography variant="h4">
+              Design Thinking Practitioner &amp; Product Designer
+            </Typography>
+            </Box>
+            </Box>
+            </Grid>
+    
+          <Grid className="noPadding" ml={2} mr={2} item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
-              Hi, folks! I'm Robert Harris. I am a Design Thinking Practioner &amp; Product Designer. I have worked for large brands and start-ups successfully
+              Hi! I'm Robert Harris. I am a Design Thinking Practioner &amp; Product Designer. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products
               and solutions for their customers and accomplishing business
               goals. I work in collaboration with stakeholders, and
