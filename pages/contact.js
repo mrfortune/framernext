@@ -35,9 +35,9 @@ const Contact = () => {
         justifyContent="center"
         sx={{ minHeight: "300px" }}
       >
-        <Grid container spacing={2} sx={{ maxWidth: "md", marginLeft: "0" }}>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography variant="h1" className="header" mb={6}>
+        <Grid container spacing={2} sx={{ maxWidth: "md" }}>
+          <Grid item paddingLeft={0} xs={12} sm={12} md={12} lg={12}>
+            <Typography variant="h1" mb={6}>
               Contact Us
             </Typography>
             <Typography variant="body1" mb={1}>

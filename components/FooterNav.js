@@ -25,10 +25,10 @@ const FooterNav = () => {
           direction="row"
           display="flex"
           alignItems="center"
-          justifyContent="center"
+          justifyContent="space-evenly"
           sx={{ width: "100%" }}
         >
-          <Grid container spacing={1} sx={{ maxWidth: "md" }}>
+          <Grid container spacing={2} sx={{ maxWidth: "md" }}>
             <Grid item xs={4} sm={4} lg={4} md={4}>
               <Box
                 component="ul"
@@ -41,7 +41,7 @@ const FooterNav = () => {
                 }}
               >
                 <Box component="li" mb={1}>
-                  <Typography variant="h4">Pages</Typography>
+                  <Typography variant="h4">Menu</Typography>
                 </Box>
                 <Box component="li">
                   <Link href="/">Home</Link>
@@ -74,11 +74,12 @@ const FooterNav = () => {
                   <Link href="/">Terms</Link>
                 </Box>
                 <Box component="li">
-                  <Link href="/Story">Privacy</Link>
+                  <Link href="/">Privacy</Link>
                 </Box>
               </Box>
             </Grid>
             <Grid item xs={4} lg={4}>
+              
               <Box component="div" mb={2} mt={2}>
                 <Typography
                   variant="h4"
@@ -88,10 +89,9 @@ const FooterNav = () => {
                   Sharing
                 </Typography>
               </Box>
-              <Box
+              <Box position='right'
                 sx={{
                   padding: "0 0",
-                  width: "160",
                   color: "#fff",
                   "& > :not(style)": {
                     mr: 1,
@@ -114,6 +114,7 @@ const FooterNav = () => {
                   </a>
                 </Link>
               </Box>
+              
             </Grid>
             <Grid
               item
@@ -125,7 +126,7 @@ const FooterNav = () => {
               sx={{ textAlign: "center" }}
             >
               <Typography variant="subtitle" sx={{ fontSize: ".7rem" }}>
-                &copy; 2022 WorldShaker, Interactive, Inc. All rights reserved.
+                &copy; 2022 WorldShaker Interactive, Inc. All rights reserved.
               </Typography>
             </Grid>
           </Grid>

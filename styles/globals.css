@@ -209,7 +209,23 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   min-height: 270px;
   background-position: center;
 }
-
+.MuiGrid-item,
+.MuiGrid-root,
+.MuiBox-root{
+  padding-left:0;
+}
+.MuiGrid-container{
+  padding-left:0;
+  margin-right:0;
+  margin-left:0;
+}
+.MuiGrid-root > .MuiGrid-item{
+  padding-left:0px;
+}
+.MuiToolbar-root{
+  padding-left:0px;
+  padding-right:0px;
+}
 .MuiPaper-rounded {
   background: #b4b3b3;
   border: solid #b1b0b0 1px;
@@ -233,7 +249,6 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 .homeHero {
   background-image: url("/assets/Desktop1920_bg.png");
   position: relative;
-  padding: 8px;
   height: 100vh;
   width: 100%;
   min-height: calc(100vh - 4rem);
@@ -296,7 +311,7 @@ background: linear-gradient(162deg, rgba(247,243,243,1) 52%, rgba(237,208,252,1)
   z-index: 0;
 }
 ul.ulStyle {
-  padding-left: 0.6rem;
+  padding-left: 1rem;
   list-style-type: circle;
 }
 ul.ulStyle li {

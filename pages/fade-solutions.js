@@ -28,8 +28,6 @@ const FadeDesign = () => {
         >
           <Box
             mt={8}
-            ml={2}
-            mr={2}
             component="div"
             display="flex"
             justifyContent="center"
@@ -57,7 +55,6 @@ const FadeDesign = () => {
                 <Box
                   component="div"
                   ml={0}
-                  p={2}
                   display="flex"
                   justifyContent="center"
                   alignItems="center"
@@ -108,7 +105,7 @@ const FadeDesign = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          sx={{ flexGrow: 1, px: 3 }}
+          sx={{ flexGrow: 1, }}
         >
           <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
             <Grid item xs={12} md={12} lg={12} mb={8}>

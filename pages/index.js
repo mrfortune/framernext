@@ -33,7 +33,7 @@ export default function Home() {
         alignItems="center"
         justifyContent="center"
       >
-        <Box component="div" p={2} sx={{ maxWidth: "md" }}>
+        <Box component="div" sx={{ maxWidth: "md" }}>
           <Box
             component="div"
             mt={2}
@@ -72,12 +72,11 @@ export default function Home() {
         direction="row"
         mb={8}
         display="flex"
-        ml={2}
         justifyContent="center"
         component="div"
       >
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
+          <Grid item pl={0} xs={12} sm={12} md={12} lg={12}>
             <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               What We Do
             </Typography>
@@ -107,7 +106,6 @@ export default function Home() {
         direction="row"
         mb={10}
         display="flex"
-        ml={2}
         justifyContent="center"
       >
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
@@ -120,7 +118,7 @@ export default function Home() {
               Brands Worked For
             </Typography>
             <Typography variant="body1">
-              Worked as a UX Engineer, Project Manager, Web Producer &amp;
+              Worked as a Front-end Developer, Project Manager, Web Producer &amp;
               Designer, and Design Technologist for these brands.
             </Typography>
           </Grid>
@@ -132,7 +130,6 @@ export default function Home() {
   viewport={{ once: true }}>
             <Box
               component="div"
-              ml={0}
               className="ourProjects"
               height="100%"
               display="flex"
@@ -145,8 +142,6 @@ export default function Home() {
       <Box
         component="div"
         direction="row"
-        ml={2}
-        mr={2}
         display="flex"
         justifyContent="center"
       >
@@ -226,7 +221,6 @@ export default function Home() {
               sx={{ display: "flex" }}
             >
               <Box
-                p={1}
                 sx={{
                   display: "flex",
                   flexDirection: "column",

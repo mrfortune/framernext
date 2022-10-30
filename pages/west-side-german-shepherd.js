@@ -43,7 +43,6 @@ const WestSide = () => {
         <Box
           mt={8}
           component="div"
-          ml={2}
           display="flex"
           justifyContent="center"
           alignItems="center"
@@ -65,10 +64,9 @@ const WestSide = () => {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={12} lg={12}>
+            <Grid item xs={12} sm={12} lg={12} md={12} xl={12}>
               <Box
                 component="div"
-                p={2}
                 display="flex"
                 justifyContent="center"
                 alignItems="center"
@@ -118,7 +116,7 @@ const WestSide = () => {
         justifyContent="center"
         alignItems="center"
         mb={15}
-        sx={{ flexGrow: 1, px: 3 }}
+        sx={{ flexGrow: 1}}
       >
         <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
           <Grid item xs={12} md={12} lg={12} mb={8}>
@@ -216,44 +214,43 @@ const WestSide = () => {
           <Grid item xs={12} md={12} lg={12} mb={8}>
             <Typography variant="h2" >
               2. User Interview Questions
-            </Typography>
-            <Box component="ul" className="ulStyle" cmb={6} sx={{}}>
-              <li>
-                Tell me about your experience of finding and adopting your
-                dog online.
-                <ul>
+            </Typography> 
+            <Typography variant="body1" >1.Tell me about your experience of finding and adopting your
+                dog online.</Typography>
+            <Box component="ul" className="ulStyle" mb={6}>
                   <li>Website used</li>
                   <li>Timeline (from first search to adoption)</li>
                   <li>Adoption application process</li>
                   <li>Retrieving dog</li>
-                </ul>
-              </li>
-              <li>What drew you to your dog specifically?</li>
-              <li>
-                Did you have any special considerations when searching for your
+               </Box>
+  
+               <Typography variant="body1">2. What drew you to your dog specifically?</Typography>
+               <Box component="ul" className="ulStyle" mb={6}>
+                <li>Did you have any special considerations when searching for your
                 dog? (e.g. good with cats/other dogs/kids, male/female, age,
                 housebroken)
               </li>
-              <li>
-                Why did you use (website they answered in survey) over other
-                websites?
-                <ul>
+              </Box>
+              <Typography variant="body1">3. Why did you use (website they answered in survey) over other
+                websites?</Typography>
+                <Box component="ul" className="ulStyle" mb={6}>
                   <li>Was there anything that stood out to you as something the
                     site did well?
                   </li>
                   <li>Was there anything that stood out to you as something the
                     site did not do well?
-                  </li>
-                </ul>
-              </li>
-              <li>
+                  </li> 
+                  <li>
                 If you were to looking to adopt another dog, would you use this
                 website again? Why?
               </li>
-              <li>
-                Have you ever volunteered with or donated to a shelter or
+                  </Box>
+                  <Typography variant="body1">
+                4. Have you ever volunteered with or donated to a shelter or
                 rescue? How was that experience?
-              </li>
+              </Typography>
+                  <Box component="ul" className="ulStyle" mb={6}>
+             
               <li>
                 Have you ever/would you ever consider hosting a foster dog?
                 Elaborate.
@@ -262,16 +259,23 @@ const WestSide = () => {
           </Grid>
           <Grid item xs={12} sm={12} lg={12} mb={8}>
             <Typography variant="h2" >
-              3.User Survey
+              3.User Survey 
             </Typography>
             <Typography variant="body1">
               We created a survey and solicited parcipants to participate via
               social media platforms.
             </Typography>
+            <Typography variant="body1">
+            We are students in a User Experience design course looking to evaluate the effectiveness of a local dog rescue’s website. Through this survey, we hope to gather information about what steps of the dog adoption process are most important to the adopters.
+</Typography>
+<Typography variant="body1">For this survey we are asking specifically about dog adoption. In this case, the word adoption is defined as obtaining a dog through an animal shelter or animal rescue.</Typography>
+<Typography variant="body1">
+The survey is 11 questions long and should take less than 10 minutes. For questions or comments, you can contact us at madeline.lipkin@gmail.com.</Typography>
+<Typography variant="body1">
+Thank you for your time!
+
+            </Typography>
           </Grid>
-          <Grid item xs={12} sm={12} lg={12} xl={12} mb={8}>
-        
-            </Grid>
           <Grid item xs={12} lg={12} xl={12} lg={12} mb={8}>
             <Typography variant="h2" >
               4. Competitive Analysis

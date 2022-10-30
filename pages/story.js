@@ -12,6 +12,7 @@ import Meta from "../components/Meta";
 import myLoader from "../components/Loader";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Avatar } from "@nextui-org/react";
 
 const Story = () => {
   return (
@@ -27,10 +28,8 @@ const Story = () => {
       >
         <Grid
           container
-          pl={1}
-          pr={2}
           spacing={2}
-          sx={{ paddingLeft: "16px", maxWidth: "md" }}
+          sx={{  maxWidth: "md" }}
         >
           <Grid item xs={12} md={12} lg={12} xl={12}>
             <Typography variant="h1" mb={6}>
@@ -62,7 +61,7 @@ const Story = () => {
             </Box>
           </Grid>
            
-              <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+              <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mr="0">
             {/* <Typography
               variant="subtitle1"
               mb={1}
@@ -79,6 +78,13 @@ const Story = () => {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.8 }}
   >
+    {/* <Avatar
+  loader={myLoader}
+  size="640px"
+  src="http://www.worldshaker.com/assets/rh.png"
+  color="gradient"
+  bordered
+/> */}
             <Image
               loader={myLoader}
               src="RSHarris.png"
