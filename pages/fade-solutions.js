@@ -42,7 +42,6 @@ const FadeDesign = () => {
                   sx={{ textAlign: "center", height: "152px" }}
                 >
                   <Typography variant="h1">
-                    {" "}
                     Data Analytics &amp; UX Done Well
                   </Typography>
                   <Typography variant="body1" className="body1">
@@ -250,6 +249,7 @@ const FadeDesign = () => {
             </Grid>
 
             <Grid item xs={12} lg={12} mb={8}>
+           
               <Typography variant="h2"  mb={4}>
                 Persona:Meet Pamela Wu
               </Typography>
@@ -281,6 +281,7 @@ const FadeDesign = () => {
                 In the image below we map the user journey of the Account
                 Administrator as she interacts with the proposed solution.
               </Typography>
+              
               <Box
                 component="div"
                 display="flex"
@@ -296,7 +297,12 @@ const FadeDesign = () => {
                   height="675px"
                   width="900px"
                 />
-              </Box>
+              </Box><Typography variant="h2" >
+              User Need
+            </Typography>
+            <Typography variant="body1">
+                Pamela Wu
+              </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
               <Typography variant="h5">Design</Typography>

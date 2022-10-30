@@ -383,6 +383,9 @@ Thank you for your time!
               Define
             </Typography>
             <Typography variant="h2" >
+              User Need
+            </Typography>
+            <Typography variant="h2" >
               Persona
             </Typography>
             <Typography variant="body1" >

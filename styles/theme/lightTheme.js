@@ -78,7 +78,7 @@ const lightTheme = createTheme({
       textTransform: "uppercase",
       fontWeight: 700,
     },
-    fontFamily: "Lato",
+    fontFamily: 'Merriweather', 
   },
   
 });

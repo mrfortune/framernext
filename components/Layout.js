@@ -6,7 +6,7 @@ import Meta from './Meta';
 
 export default function Layout({ children }) {
     return (
-      <div >
+      <div>
         <Meta/>
         <DrawerAppBar/>
         <main><Container  maxWidth={false} disableGutters={true}>{children}</Container></main>
