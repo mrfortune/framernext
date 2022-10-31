@@ -340,6 +340,7 @@ ul.ulStyle li {
     margin-left:4px;
   }
   .MuiGrid-item{
+    margin-left:1rem;
     margin-right:1rem;
   }
   /* .MuiCard-root{
