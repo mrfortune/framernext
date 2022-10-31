@@ -18,7 +18,7 @@ const commonStyles = {
 
 const FadeDesign = () => {
   return (
-    <div>
+    <div className="fade">
       <Meta title="Case study::Fade Solutions Case Study" />
         <Paper
           square={true}

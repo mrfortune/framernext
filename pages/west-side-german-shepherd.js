@@ -353,7 +353,6 @@ Thank you for your time!
               <Image
                 loader={myLoader}
                 src="WGSRComparative-Analysis-1.png"
-                
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="695px"
@@ -382,15 +381,11 @@ Thank you for your time!
           <Typography variant="h5" >
               Define
             </Typography>
+           
             <Typography variant="h2" >
-              User Need
+              Persona:Carol Olsen
             </Typography>
-            <Typography variant="h2" >
-              Persona
-            </Typography>
-            <Typography variant="body1" >
-              Carol Olsen, a teacher, and tech savvy dog lover needs a process that makes it very easy to adopt a german-shepherd.
-            </Typography>
+            <Box component="div" mb={6} className="imageBorderradius">
             <Image
               loader={myLoader}
               className="imageBorderradius"
@@ -398,7 +393,17 @@ Thank you for your time!
               alt="West Side Persona"
               height="720px"
               width="1280px"
-            ></Image>
+            >
+
+            </Image>
+            </Box>
+            <Typography variant="h2" >
+              User Need
+            </Typography>
+             <Typography variant="body1" >
+              Carol Olsen, a teacher, and tech savvy dog lover needs a process that makes it very easy to adopt a german-shepherd.
+            </Typography> 
+           
           </Grid>
           
           <Grid item xs={12} lg={12} mb={8}>
@@ -566,7 +571,7 @@ Thank you for your time!
               Fantastic Redesign with Future Improvements to Come
             </Typography>
             <Typography variant="body1">
-              With a comeplete redesign of sheprescue.org we believe that we
+              With a complete redesign of sheprescue.org we believe that we
               have improved the user experience for their customers. The site is
               no longer outdated and is better organized. The look and feel is
               clean and with consisten colors and typography.

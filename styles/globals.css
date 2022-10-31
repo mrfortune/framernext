@@ -343,14 +343,14 @@ footer .MuiGrid-item{
  .story{
    padding:1rem;
  }
+ .wgsr .MuiGrid-item,
+ .fade .MuiGrid-item,
+ .contact .MuiGrid-item,
  .homePage .MuiGrid-item,
   .story .MuiGrid-item{
     padding-left:16px;
     margin-left:8px;
     margin-right:8px;
-  }
-  footer .MuiGrid-item{
-    padding:1rem;
   }
   footer .MuiGrid-item{
     margin-left:8px;
@@ -387,13 +387,15 @@ footer .MuiGrid-item{
     padding: 8px;
     min-height: 45rem;
   }
-
+  .wgsr .MuiGrid-item,
+  .fade .MuiGrid-item,
+  .contact .MuiGrid-item,
   .homePage .MuiGrid-item,
-  .story .MuiGrid-item{
-    padding-left:16px;
-    margin-left:8px;
-    margin-right:8px;
-  }
+   .story .MuiGrid-item{
+     padding-left:16px;
+     margin-left:8px;
+     margin-right:8px;
+   }
   footer .MuiGrid-item{
     margin-left:8px;
     margin-right:8px;
@@ -405,12 +407,15 @@ footer .MuiGrid-item{
     padding: 8px;
     min-height: 45rem;
   }
+  .wgsr .MuiGrid-item,
+  .fade .MuiGrid-item,
+  .contact .MuiGrid-item,
   .homePage .MuiGrid-item,
-  .story .MuiGrid-item{
-    padding-left:16px;
-    margin-left:8px;
-    margin-right:8px;
-  }
+   .story .MuiGrid-item{
+     padding-left:16px;
+     margin-left:8px;
+     margin-right:8px;
+   }
   footer .MuiGrid-item{
     margin-left:8px;
     margin-right:8px;
