@@ -7,6 +7,7 @@ import Image from "next/image";
 import { borders } from "@mui/system";
 import myLoader from "../components/Loader";
 import Meta from "../components/Meta";
+import usabilityTest from '/public/assets/FadeUsabilityTest_LoriMarion_2.gif';
 
 const commonStyles = {
   bgcolor: "#e7e6e2",
@@ -104,7 +105,6 @@ const FadeDesign = () => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          sx={{ flexGrow: 1, }}
         >
           <Grid container mt={6} spacing={0} sx={{ maxWidth: "md" }}>
             <Grid item xs={12} md={12} lg={12} mb={8}>
@@ -159,7 +159,7 @@ const FadeDesign = () => {
               </Typography>
             </Grid>
 
-            <Grid item xs={12} lg={12} mb={8}>
+            <Grid item xs={12} lg={12} xl={12} mb={8}>
               <Typography variant="h2" >
                 Competitive Analysis
               </Typography>
@@ -168,7 +168,7 @@ const FadeDesign = () => {
                 nothing new. Many companies, such as Amazon, YouTube and
                 Facebook alll have those solutions for their business users. We
                 simply looked at those properties and features and applied it to
-                Fades project brief.{" "}
+                Fades project brief.
               </Typography>
               <Typography variant="body1">
                 Fades business model is an advertiser driven B2B model not for
@@ -278,8 +278,8 @@ const FadeDesign = () => {
                 Journey Map
               </Typography>
               <Typography variant="body1">
-                In the image below we map the user journey of the Account
-                Administrator as she interacts with the proposed solution.
+                In the image below we map the user journey of Pamela Wu, the Account
+                Administrator, as she interacts with the proposed solution to accomplish various tasks.
               </Typography>
               
               <Box
@@ -297,11 +297,14 @@ const FadeDesign = () => {
                   height="675px"
                   width="900px"
                 />
-              </Box><Typography variant="h2" >
+              </Box>
+              </Grid>
+              <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+              <Typography variant="h2" >
               User Need
             </Typography>
             <Typography variant="body1">
-                Pamela Wu
+                Pamela Wu needs to set up her account in Fade Technology Solutions admi panel and be invite her team to use the system.
               </Typography>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
@@ -437,9 +440,11 @@ const FadeDesign = () => {
                     width={900}
                     className="imageBorderradius"
                     alt="Fade Login"
-                  ></Image>
+                  >
+
+                  </Image>
                 </Box>
-             
+             </Grid>
               <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
                 <Box
                   component="div"
@@ -458,7 +463,8 @@ const FadeDesign = () => {
                   ></Image>
                 </Box>
               </Grid>
-              <Typography variant="h2" >
+            <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+              <Typography variant="h2">
                 Simple and Intuitive Dashboard
               </Typography>
               <Typography variant="body1">
@@ -467,8 +473,6 @@ const FadeDesign = () => {
                 design that the team and I came up with for Fade's dashboard.
                 Desktop was primary so we did not design a mobile solution{" "}
               </Typography>
-            </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
               <Box
                 component="div"
                 display="flex"
@@ -521,7 +525,7 @@ const FadeDesign = () => {
                 ></Image>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
+            <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
               <Box
                 component="div"
                 display="flex"
@@ -558,11 +562,11 @@ const FadeDesign = () => {
                 className="imageBorderradius"
               >
                 <img
-                  src="/assets/FadeUsabilityTest_LoriMarion_2.gif"
-                  width={640}
-                  height={377}
+                  src={usabilityTest}
+                  width="640"
+                  height="377"
                   alt="Usability Testing"
-                />
+                /> 
               </Box>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
@@ -580,11 +584,11 @@ const FadeDesign = () => {
                 our assumptions by usability-testing.
               </Typography>
 
-              <Typography variant="body1"></Typography>
+              
             </Grid>
           </Grid>
         </Box>
-     
+      
     </div>
   );
 };

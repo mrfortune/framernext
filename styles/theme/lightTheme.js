@@ -48,7 +48,7 @@ const lightTheme = createTheme({
 
     h2: {
       // fontFamily: "Merriweather",
-      fontWeight: 400,
+      fontWeight: 500,
       fontSize: "2.441rem",
       marginBottom: "1.5rem",
     },
@@ -57,7 +57,7 @@ const lightTheme = createTheme({
       fontSize: "1.953rem",
     },
     h4: {
-      fontWeight: 300,
+      fontWeight: 400,
       // fontFamily: "Merriweather",
       fontSize: "1.563",
     },

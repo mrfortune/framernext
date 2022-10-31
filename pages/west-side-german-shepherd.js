@@ -32,7 +32,7 @@ const rows = [
  ];
 const WestSide = () => {
   return (
-    <div>
+    <div className="wgsr">
       <Meta title="Case Study::West-Side German Shepherd Rescue" />
       <Paper
         square={true}
