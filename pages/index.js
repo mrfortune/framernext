@@ -69,6 +69,7 @@ export default function Home() {
       </Box>
 
       <Box
+      className="homePage"
         direction="row"
         mb={8}
         display="flex"
@@ -78,7 +79,7 @@ export default function Home() {
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
 
           
-          <Grid className="noPadding" item xs={12} sm={12} md={12} lg={12} xl={12}>
+          <Grid  item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               What We Do
             </Typography>
@@ -100,7 +101,7 @@ export default function Home() {
             </motion.div>
             
           </Grid>
-          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12}>
+          <Grid item  xs={12} sm={12} md={12} lg={12}>
             <Typography
               variant="h2"
               mb={4}
@@ -127,7 +128,7 @@ export default function Home() {
             ></Box>
             </motion.div>
           </Grid>
-          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
             <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               Case Studies
             </Typography>
