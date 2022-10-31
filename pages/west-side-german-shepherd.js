@@ -276,7 +276,7 @@ Thank you for your time!
 
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={12} xl={12} lg={12} mb={8}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
             <Typography variant="h2" >
               4. Competitive Analysis
             </Typography>

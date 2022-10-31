@@ -42,20 +42,19 @@ const Story = () => {
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.8 }}
   >
-    {/* <Avatar
-  loader={myLoader}
-  size="640px"
+  <Avatar
+  size="300px"
   src="http://www.worldshaker.com/assets/rh.png"
   color="gradient"
   bordered
-/> */}
-            <Image
+/> 
+            {/* <Image
               loader={myLoader}
               src="RSHarris.png"
               alt="Robert Harris"
               width="300px"
               height="300px"
-            ></Image> 
+            ></Image>  */}
             </motion.div>
               </Grid>
           <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>

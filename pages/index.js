@@ -76,7 +76,9 @@ export default function Home() {
         component="div"
       >
         <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid className="noPadding" ml={2} item xs={12} sm={12} md={12} lg={12} xl={12}>
+
+          
+          <Grid className="noPadding" item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               What We Do
             </Typography>
@@ -98,18 +100,7 @@ export default function Home() {
             </motion.div>
             
           </Grid>
-        </Grid>
-      </Box>
-
-      <Box
-        component="div"
-        direction="row"
-        mb={10}
-        display="flex"
-        justifyContent="center"
-      >
-        <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-          <Grid item className="noPadding" ml={2} xs={12} sm={12} md={12} lg={12}>
+          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12}>
             <Typography
               variant="h2"
               mb={4}
@@ -136,22 +127,12 @@ export default function Home() {
             ></Box>
             </motion.div>
           </Grid>
-        </Grid>
-      </Box>
-
-      <Box
-        component="div"
-        direction="row"
-        display="flex"
-        justifyContent="center"
-      >
-        <Grid container spacing={2} sx={{ maxWidth: "md", marginRight:'2rem', marginLeft:'2rem' }}>
-          <Grid item className="noPadding" xs={12} ml={2} sm={12} md={12} lg={12}>
-            <Typography variant="h2" sx={{ color: "#333" }}>
+          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12}>
+            <Typography variant="h2" sx={{ color: "#333", textAlign: "left" }}>
               Case Studies
             </Typography>
           </Grid>
-          <Grid item xs={12} mr={2} md={12} lg={12} mb={8}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -195,20 +176,11 @@ export default function Home() {
                   </Button>
                 </CardContent>
               </Box>
-              {/* <CardMedia
-                component="img"
-                height="225"
-                width="300"
-                sx={{ width: 300 }}
-                background-size="cover"
-                image="/assets/fadecardImage.png"
-                alt="Fade Technology Solutions"
-              /> */}
+              
             </Card>
             </motion.div>
           </Grid>
-
-          <Grid className="noPadding" item ml={2} mr={2} xs={12} md={12} lg={12} mb={8}>
+          <Grid  item  xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
@@ -252,77 +224,10 @@ export default function Home() {
                   </Button>
                 </CardContent>
               </Box>
-
-              {/* <CardMedia
-                component="img"
-                width="300"
-                height="225"
-                background-size="cover"
-                sx={{ width: 300 }}
-                image="/assets/wgsrcardimage.png"
-                alt="WGSR"
-              /> */}
             </Card>
             </motion.div>
           </Grid>
-          {/* <Grid item xs={12} md={12} lg={12} mb={8}>
-          <motion.div
-  initial={{ opacity: 0 }}
-  whileInView={{ opacity: 1 }}
-  viewport={{ once: true }}
-  transition={{ duration: 2.5 }}
-  >
-            <Card
-              square={false}
-              className="MuiPaper-rounded"
-              sx={{ display: "flex" }}
-            >
-              <Box
-                p={1}
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  width: "66.66%",
-                }}
-              >
-                <CardContent sx={{ flex: "1 0 auto" }}>
-                  <Typography
-                    component="div"
-                    variant="h3"
-                    className="lineClamp"
-                  >
-                    West Side German Shepherd Rescue
-                  </Typography>
-                  <Typography
-                    variant="subtitle1"
-                    color="text.secondary"
-                    component="div"
-                    mb={3}
-                    className="lineClamp"
-                  >
-                    Let's walk through the dog adoption process that we explored
-                    and the assumptions, insights, and final design of
-                    sheprescue.org.
-                  </Typography>
 
-                  <Button size="small" variant="text" color="primary">
-                    <Link href="/wine-store"> Read More...</Link>
-                  </Button>
-                </CardContent>
-              </Box>
-
-              <CardMedia
-                component="img"
-                width="300"
-                height="225"
-                background-size="cover"
-                sx={{ width: 300 }}
-                image="/assets/wgsrcardimage.png"
-                alt="WGSR"
-              />
-            </Card>
-            </motion.div>
-          </Grid> */}
         </Grid>
       </Box>
     </div>

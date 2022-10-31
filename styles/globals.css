@@ -218,11 +218,11 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 .MuiBox-root{
   padding-left:0;
 }
-.MuiGrid-container{
+/* .MuiGrid-container{
   padding-left:0;
   margin-right:0;
   margin-left:0;
-} 
+}  */
 
 .MuiToolbar-root{
   padding-left:0px;
@@ -335,6 +335,22 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
+  .css-817c93-MuiGrid-root{
+    width:100%;
+    margin-left:4px;
+  }
+  .MuiGrid-item{
+    margin-right:1rem;
+  }
+  /* .MuiCard-root{
+    margin-left:1rem;
+    margin-right:1rem;
+  } */
+  .MuiGrid-grid-xs-12 p,
+  .MuiGrid-item h2,
+  .MuiGrid-grid-xs-12 .MuiTypography-h2{
+    margin-left:1rem;
+  }
   .MuiTypography-body1.headerBody {
     font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
     background-image: linear-gradient(to bottom, #fbf7fc, #fad4fa);
@@ -361,9 +377,8 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
-  .MuiContainer-root{
+  .MuiGrid-item{
     margin-right:1rem;
-    margin-left:1rem;
   }
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -372,9 +387,8 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
-  .MuiContainer-root{
+  .MuiGrid-item{
     margin-right:1rem;
-    margin-left:1rem;
   }
 } 
 /* Large devices (lops/desktops, 992px and up) */
