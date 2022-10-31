@@ -100,7 +100,7 @@ function DrawerAppBar(props) {
               mr: 16,
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.2rem',
               color: 'white',
               textDecoration: 'none',
             }}

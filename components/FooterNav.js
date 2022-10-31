@@ -19,17 +19,16 @@ const FooterNav = () => {
           component="div"
           pb={2}
           pr={0}
-          pl={1}
           mr={0}
           pt={2}
           direction="row"
           display="flex"
           alignItems="center"
-          justifyContent="space-evenly"
+          justifyContent="center"
           sx={{ width: "100%" }}
         >
-          <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-            <Grid item xs={4} sm={4} lg={4} md={4}>
+          <Grid container sx={{ maxWidth: "md" }}>
+            <Grid item xs={12} sm={12} lg={4} md={4} xl={4}>
               <Box
                 component="ul"
                 sx={{
@@ -54,7 +53,7 @@ const FooterNav = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={4} lg={4}>
+            <Grid item xs={12} sm={4} md={4} lg={4} xl={4}>
               <Box
                 component="ul"
                 sx={{
@@ -78,7 +77,7 @@ const FooterNav = () => {
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={4} lg={4}>
+            <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
               
               <Box component="div" mb={2} mt={2}>
                 <Typography
@@ -89,13 +88,12 @@ const FooterNav = () => {
                   Sharing
                 </Typography>
               </Box>
-              <Box position='right'
+              <Box component="div"
+              position='right'
                 sx={{
                   padding: "0 0",
                   color: "#fff",
-                  "& > :not(style)": {
-                    mr: 1,
-                  },
+                
                 }}
               >
                 <Link href="http://linkedin.com/in/robertsharris">

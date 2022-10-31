@@ -22,21 +22,22 @@ const Story = () => {
         component="div"
         mt={15}
         mb={15}
-        // direction="row"
+        direction="row"
         display="flex"
         justifyContent="center"
       >
         <Grid
+        className="story"
           container
           spacing={2}
           sx={{  maxWidth: "md" }}
         >
-          <Grid item className="noPadding" xs={12} sm={12} md={12} lg={12} xl={12}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography variant="h1" mb={6}>
               The Story
             </Typography>
           </Grid>      
-          <Grid className="noPadding" item xs={4} sm={4} md={4} lg={4} xl={4}>
+          {/* <Grid className="noPadding" item xs={3} sm={3} md={3} lg={3} xl={3}>
           <motion.div
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
@@ -48,16 +49,10 @@ const Story = () => {
   color="gradient"
   bordered
 /> 
-            {/* <Image
-              loader={myLoader}
-              src="RSHarris.png"
-              alt="Robert Harris"
-              width="300px"
-              height="300px"
-            ></Image>  */}
+         
             </motion.div>
-              </Grid>
-          <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>
+              </Grid> */}
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
           <Box
               component="div"
               display="flex"
@@ -66,7 +61,20 @@ const Story = () => {
         textAlign="left" 
         height='100%'
             >
-              <Box component="div" height="50%">
+               <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.8 }}
+  >
+  <Avatar
+  size="200px"
+  src="http://www.worldshaker.com/assets/rh.png"
+  color="gradient"
+  bordered
+/> 
+            
+            </motion.div>
+              <Box component="div" height="50%" ml={2}>
           <Typography variant="h2" mb={2}>
               Robert S. Harris
             </Typography>
@@ -77,7 +85,7 @@ const Story = () => {
             </Box>
             </Grid>
     
-          <Grid className="noPadding" ml={2} mr={2} item xs={12} sm={12} md={12} lg={12} xl={12}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
               Hi! I'm Robert Harris. I am a Design Thinking Practioner &amp; Product Designer. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products

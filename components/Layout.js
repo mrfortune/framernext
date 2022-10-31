@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <Meta/>
         <DrawerAppBar/>
         <main><Container  maxWidth={false} disableGutters={true}>{children}</Container></main>
-        <FooterNav/> 
+        <footer><FooterNav/> </footer>
       </div>
     )
   }

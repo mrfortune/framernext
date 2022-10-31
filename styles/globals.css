@@ -213,11 +213,7 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   min-height: 270px;
   background-position: center;
 }
-.MuiGrid-item,
-.MuiGrid-root,
-.MuiBox-root{
-  padding-left:0;
-}
+
 /* .MuiGrid-container{
   padding-left:0;
   margin-right:0;
@@ -328,6 +324,15 @@ ul.ulStyle li {
   width:50vw; */
   color: aliceblue;
 }
+.story{
+  margin-left:4px;
+}
+.story .MuiGrid-item{
+  padding-left:0px;
+}
+footer .MuiGrid-item{
+  padding-left:0px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
@@ -335,23 +340,26 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
-  .css-817c93-MuiGrid-root{
-    width:100%;
-    margin-left:4px;
+ .story{
+   padding:1rem;
+ }
+  .story .MuiGrid-item{
+    padding-left:16px;
+    margin-left:8px;
+    margin-right:8px;
   }
-  .MuiGrid-item{
-    margin-left:1rem;
-    margin-right:1rem;
+  footer .MuiGrid-item{
+    padding:1rem;
+  }
+  footer .MuiGrid-item{
+    margin-left:8px;
+    margin-right:8px;
   }
   /* .MuiCard-root{
     margin-left:1rem;
     margin-right:1rem;
   } */
-  .MuiGrid-grid-xs-12 p,
-  .MuiGrid-item h2,
-  .MuiGrid-grid-xs-12 .MuiTypography-h2{
-    margin-left:1rem;
-  }
+  
   .MuiTypography-body1.headerBody {
     font-size: clamp(0.9rem, -0.1026rem + 3.189vw, 1rem);
     background-image: linear-gradient(to bottom, #fbf7fc, #fad4fa);
@@ -378,8 +386,14 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
-  .MuiGrid-item{
-    margin-right:1rem;
+.story .MuiGrid-item{
+    padding-left:16px;
+    margin-left:8px;
+    margin-right:8px;
+  }
+  footer .MuiGrid-item{
+    margin-left:8px;
+    margin-right:8px;
   }
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -388,10 +402,17 @@ ul.ulStyle li {
     padding: 8px;
     min-height: 45rem;
   }
-  .MuiGrid-item{
-    margin-right:1rem;
+  .story .MuiGrid-item{
+    padding-left:16px;
+    margin-left:8px;
+    margin-right:8px;
+  }
+  footer .MuiGrid-item{
+    margin-left:8px;
+    margin-right:8px;
   }
 } 
+
 /* Large devices (lops/desktops, 992px and up) */
 @media only screen and (min-width:900px) and (max-width:1200px) {
   .homeHero {
@@ -399,6 +420,11 @@ ul.ulStyle li {
     position: relative;
     padding: 8px;
     min-height: 45rem;
+  } 
+  .story .MuiGrid-item{
+    padding-left:16px;
+    margin-left:8px;
+    margin-right:8px;
   }
 } 
 
@@ -422,6 +448,7 @@ ul.ulStyle li {
     width: 100vw;
     min-height: 45rem;
   }
+  
 }
 @media only screen and (min-width:1920px) and (max-width:2560px) {
   .homeHero {
@@ -432,5 +459,6 @@ ul.ulStyle li {
     width: 100vw;
     min-height: 45rem;
   }
+
 }
 
