@@ -7,7 +7,8 @@ import Image from "next/image";
 import { borders } from "@mui/system";
 import myLoader from "../components/Loader";
 import Meta from "../components/Meta";
-import usabilityTest from '/public/assets/FadeUsabilityTest_LoriMarion_2.gif';
+import { motion, AnimatePresence} from 'framer-motion';
+// import usabilityTest from './assets/FadeUsabilityTest_LoriMarion_2.gif';
 
 const commonStyles = {
   bgcolor: "#e7e6e2",
@@ -561,12 +562,12 @@ const FadeDesign = () => {
                 alignItems="center"
                 className="imageBorderradius"
               >
-                <img
+                {/* <img
                   src={usabilityTest}
                   width="640"
                   height="377"
                   alt="Usability Testing"
-                /> 
+                />   */}
               </Box>
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>

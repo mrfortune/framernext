@@ -18,6 +18,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { NextUIProvider } from "@nextui-org/react";
 import Meta from "../components/Meta";
+import { AnimatePresence } from "framer-motion";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         justifyContent="center"
       >
         <Box component="div" sx={{ maxWidth: "md", width:'900px'}}>
+         
           <Box
             component="div"
             mt={2}
@@ -41,9 +43,18 @@ export default function Home() {
             width:{xs:'100%', sm:'40%', md:'45%', lg:'55%', xl:'55%'}, 
             textAlign:{xs:'center', sm:'left', md:'left', lg:'left', xl:'left'},
             height:'auto',}}
+          > 
+          <motion.div
+          initial={{x: -950}}
+          animate={{x: 1}}
+          transition={{ duration: 1.0}}
           >
-            <Typography variant="h1" className="display" mb={2} >
-              Data-Driven Design for Humans.
+            <Typography 
+            initial={{ opacity: 0 }}
+            transition={{ease: "easeOut", duration: 2.5 }}
+          whileInView={{ opacity: 1 }}
+            variant="h1" className="display" mb={2} >
+              Data-Driven Design for Humans
             </Typography>
             <Typography
             className="headerBody"
@@ -56,6 +67,7 @@ export default function Home() {
             >
               UI/UX designers, developers, and design thinking practitioners who apply a data-driven, human-centered design approach to solving problems.
             </Typography>
+            <motion.div>
             <Button
               color="primary"
               variant="contained"
@@ -64,7 +76,10 @@ export default function Home() {
             >
               <Link href="/story">Learn More...</Link>
             </Button>
+            </motion.div>
+            </motion.div>
           </Box>
+          
         </Box>
       </Box>
 

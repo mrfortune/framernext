@@ -26,7 +26,7 @@ import {css} from '@emotion/react';
 import { alpha } from "@mui/material";
 import lightTheme from '../styles/theme/lightTheme';
 import { useRouter } from 'next/router';
-
+import ClearTwoToneIcon from '@mui/icons-material/ClearTwoTone';
 
 const drawerWidth = 240;
 const navItems = ['Story', 'Media', 'Contact'];
