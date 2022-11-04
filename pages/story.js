@@ -79,7 +79,7 @@ const Story = () => {
               Robert S. Harris
             </Typography>
             <Typography variant="h4">
-              Design Thinking Practitioner &amp; Product Designer
+              Design Thinking Practitioner &amp; Product/UX Designer
             </Typography>
             </Box>
             </Box>
@@ -87,7 +87,7 @@ const Story = () => {
     
           <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography mb={2} variant="body1">
-              Hi! I'm Robert Harris. I am a Design Thinking Practioner &amp; Product Designer. I have worked for large brands and start-ups successfully
+              Hi! I'm Robert Harris. I am a Design Thinking Practioner &amp; Product/UX Designer. I have worked for large brands and start-ups successfully
               identifying user problems and pain-points and delivering products
               and solutions for their customers and accomplishing business
               goals. I work in collaboration with stakeholders, and

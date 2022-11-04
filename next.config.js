@@ -12,6 +12,13 @@ module.exports = {
   loader:'imgix',
   path:'https://worldshaker.imgix.net/',
 }, 
+webpack: (
+  config,
+  { buildId, dev, isServer, defaultLoaders, nextRuntime, webpack }
+) => {
+  // Important: return the modified config
+  return config
+},
 trailingSlash: true,
 //  exportPathMap: async function (
 //   defaultPathMap,
