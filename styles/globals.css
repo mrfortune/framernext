@@ -244,7 +244,7 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   padding: 16px;
   border: 2px solid #ccc;
 }
-.homeHero {
+/* .homeHero {
   background-image: url("/assets/Desktop1920_bg.png");
   position: relative;
   height: 100vh;
@@ -253,18 +253,26 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   background-size: cover;
   background-color: rgb(239, 221, 248);
 /*background: linear-gradient(180deg, rgba(27,27,27,1) 63%, rgba(182,76,235,1) 86%, rgba(245,237,247,1) 100%); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
   transition: all 0.5s ease;
   border-bottom: 1px solid rgb(177, 174, 174);
   box-shadow: 0 8px 6px -6px rgb(173, 173, 173);
-}
+}  */
 /*animated gradient*/
-/* body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+.homeHero  {
+	background: linear-gradient(-45deg, #000000, #2B0040, #362D80, #2A0DFF);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+  height: 100vh;
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  /* background-size: cover;
+  background-color: rgb(239, 221, 248);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 0.5s ease; */
 }
 
 @keyframes gradient {
@@ -277,7 +285,7 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 	100% {
 		background-position: 0% 50%;
 	}
-} */
+} 
 
 .whatWeDo {
   background-image: url("/assets/whatwedologosbg.png");
@@ -356,7 +364,7 @@ footer .MuiGrid-item{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
-    background-image: url("/assets/iPhone428_bg.png");
+    /* background-image: url("/assets/iPhone428_bg.png"); */
     padding: 8px;
     min-height: 45rem;
   }
@@ -403,7 +411,7 @@ footer .MuiGrid-item{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width:600px) and (max-width:768px) {
   .homeHero {
-    background-image: url("/assets/Tablet768_bg.png");
+    /* background-image: url("/assets/Tablet768_bg.png"); */
     padding: 8px;
     min-height: 45rem;
   }
@@ -423,7 +431,7 @@ footer .MuiGrid-item{
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+    background-image: url("/assets/bgimagetrans.png"); 
     padding: 8px;
     min-height: 45rem;
   }
@@ -431,7 +439,7 @@ footer .MuiGrid-item{
   .fade .MuiGrid-item,
   .contact .MuiGrid-item,
   .homePage .MuiGrid-item,
-   .story .MuiGrid-item{
+  .story .MuiGrid-item{
      padding-left:16px;
      margin-left:8px;
      margin-right:8px;
@@ -444,12 +452,13 @@ footer .MuiGrid-item{
 
 /* Large devices (lops/desktops, 992px and up) */
 @media only screen and (min-width:900px) and (max-width:1200px) {
-  .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+  
+ .homeHero {
+    /* background-image: url("/assets/Desktop1440_bg.png"); */
     position: relative;
     padding: 8px;
     min-height: 45rem;
-  } 
+  }  
   .story .MuiGrid-item{
     padding-left:16px;
     margin-left:8px;
@@ -460,7 +469,7 @@ footer .MuiGrid-item{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width:1200px) and (max-width:1440px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440_bg.png");
+    /* background-image: url("/assets/Desktop1440_bg.png"); */
     position: relative;
     padding: 8px;
     height: 100vh;
@@ -470,7 +479,7 @@ footer .MuiGrid-item{
 }
 @media only screen and (min-width:1440px) and (max-width:1920px) {
   .homeHero {
-    background-image: url("/assets/Desktop1920_bg.png");
+    /* background-image: url("/assets/Desktop1920_bg.png"); */
     position: relative;
     padding: 8px;
     height: 100vh;
@@ -481,7 +490,7 @@ footer .MuiGrid-item{
 }
 @media only screen and (min-width:1920px) and (max-width:2560px) {
   .homeHero {
-    background-image: url("/assets/Desktop2560_bg.png");
+    /* background-image: url("/assets/Desktop2560_bg.png"); */
     position: relative;
     padding: 8px;
     height: 100vh;
