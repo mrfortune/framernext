@@ -52,7 +52,6 @@ export default function Home() {
             <Typography 
             initial={{ opacity: 0 }}
             transition={{ease: "easeOut", duration: 2.5 }}
-          whileInView={{ opacity: 1 }}
             variant="h1" className="display" mb={2} >
               Data-Driven Design for Humans
             </Typography>

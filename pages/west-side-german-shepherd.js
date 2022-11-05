@@ -201,7 +201,7 @@ const WestSide = () => {
        </TableHead>
        <TableBody>
          {rows.map((row) => (
-           <TableRow key={row.number}>
+           <TableRow key={row.criteria}>
              <TableCell align="left" fontWeight="500">{row.criteria}</TableCell>
              <TableCell align="left">{row.test}</TableCell>
              <TableCell align="left">{row.evaluation}</TableCell>
@@ -292,7 +292,7 @@ Thank you for your time!
                 src="WGSRCompetitive-Analysis-1.png"
                 className="imageBorderradius"
                 alt="West Side Competitive Analysis 1"
-                height="695px"
+                height="506px"
                 width="900px"
               ></Image>
             </Box>
@@ -302,7 +302,7 @@ Thank you for your time!
                 src="WGSRCompetitive-Analysis-2.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
-                height="695px"
+                height="506px"
                 width="900px"
               ></Image>
             </Box>
@@ -312,7 +312,7 @@ Thank you for your time!
                 src="WGSRCompetitive-Analysis-3.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
-                height="695px"
+                height="506px"
                 width="900px"
               ></Image>
             </Box>
@@ -322,7 +322,7 @@ Thank you for your time!
                 src="WGSRCompetitive-Analysis-4.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
-                height="695px"
+                height="506px"
                 width="900px"
               ></Image>
             </Box>
@@ -355,7 +355,7 @@ Thank you for your time!
                 src="WGSRComparative-Analysis-1.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
-                height="695px"
+                height="506px"
                 width="900px"
               ></Image>
             </Box>
@@ -364,7 +364,9 @@ Thank you for your time!
             <Typography variant="h2" >
               6. Affinity Mapping 
             </Typography>
-            <Typography variant="body1"></Typography>
+            <Typography variant="body1">
+              We synthesized our research data gathered by affinity mapping which revealed the consistent things our users wanted and expected.
+            </Typography>
             <Box component="div" className="imageBorderradius">
               <Image
                 loader={myLoader}
