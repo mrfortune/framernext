@@ -73,17 +73,17 @@ const WestSide = () => {
                 sx={{ flexgrow: "1" }}
               >
                 <Grid container spacing={2} sx={{ maxWidth: "md" }}>
-                  <Grid item xs={12} sm={3} md={3} lg={3}>
+                  <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Typography variant="body2">Client </Typography>
                     <Typography variant="body1">
                       West Side German Shepherd Rescue - sheprescue.org
                     </Typography>
                   </Grid>
-                  <Grid item xs={12} sm={3} md={3} lg={3}>
+                  <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Typography variant="body2">Year</Typography>
                     <Typography variant="body1">2021</Typography>
                   </Grid>
-                  <Grid item xs={12} sm={3} md={3} lg={3}>
+                  <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Typography variant="body2">Role</Typography>
                     <Box
                       component="ul"
@@ -94,7 +94,7 @@ const WestSide = () => {
                     </Box>
                   </Grid>
 
-                  <Grid item xs={12} sm={3} md={3} lg={3}>
+                  <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                     <Typography variant="body2">What I Did</Typography>
                     <Typography variant="body1">
                       My principal role was Information Architect and I
