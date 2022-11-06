@@ -289,7 +289,7 @@ Thank you for your time!
             <Box component="div" mb={6}>
               <Image
                 loader={myLoader}
-                src="WGSRCompetitive-Analysis-1.png"
+                src="WGSRCompetitive-Analysis1.png"
                 className="imageBorderradius"
                 alt="West Side Competitive Analysis 1"
                 height="506px"
@@ -299,7 +299,7 @@ Thank you for your time!
             <Box component="div" mb={6}>
               <Image
                 loader={myLoader}
-                src="WGSRCompetitive-Analysis-2.png"
+                src="WGSRCompetitive-Analysis2.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="506px"
@@ -309,7 +309,7 @@ Thank you for your time!
             <Box component="div" mb={6}>
               <Image
                 loader={myLoader}
-                src="WGSRCompetitive-Analysis-3.png"
+                src="WGSRCompetitive-Analysis3.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="506px"
@@ -319,7 +319,7 @@ Thank you for your time!
             <Box component="div" mb={6}>
               <Image
                 loader={myLoader}
-                src="WGSRCompetitive-Analysis-4.png"
+                src="WGSRCompetitive-Analysis4.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="506px"
@@ -352,7 +352,7 @@ Thank you for your time!
             <Box component="div" mb={6} className="imageBorderradius">
               <Image
                 loader={myLoader}
-                src="WGSRComparative-Analysis-1.png"
+                src="WGSRComparative-Analysis1.png"
                 className="imageBorderradius"
                 alt="West Side User Flow"
                 height="506px"
