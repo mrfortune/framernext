@@ -251,7 +251,7 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 .imageBorderradius {
   border-radius: .5rem;
   padding: 8px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
 }
 .homeHero {
   background-image: url("/assets/Desktop1920_bg.png");
