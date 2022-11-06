@@ -231,17 +231,26 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
   -webkit-box-shadow: 2px 2px 1rem rgba(151, 149, 149, 0.5);
   -moz-box-shadow: 2px 2px 1rem rgba(177, 175, 175, 0.5);
   color: "#fff";
-  border-radius: 1rem !important;
+  border-radius: .5rem !important;
   background: rgb(250, 249, 249);
-  /*background: linear-gradient(356deg, rgba(11,11,11,1) 0%, rgba(65,65,65,1) 52%, rgba(11,11,11,1) 100%);*/
+}
+.MuiPaper-rounded .tableHeuristic{
+  background: none;
+  border: solid none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  color: "#000";
+  border-radius: .5rem !important;
+  background: transparent;
 }
 .fadeHome {
   background-size: cover;
   color: whitesmoke;
 }
 .imageBorderradius {
-  border-radius: 1rem;
-  padding: 16px;
+  border-radius: .5rem;
+  padding: 8px;
   border: 2px solid #ccc;
 }
 .homeHero {

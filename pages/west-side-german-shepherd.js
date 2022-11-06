@@ -20,15 +20,15 @@ function createData(criteria, test, evaluation)
 const rows = [
   createData("Visibility of system status ", "Always keep users informed about what is going on.Provide appropriate feedback within reasonable time.", 
   "Pass. Site is up and running as expected and loads quickly."),
-  createData("Match between system and the real world ", "•	Speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.", "Fails. The website speaks the user’s language, but some information is out of order or not as well organized as it could be for users to find what they are searching for."),
-  createData("User control and freedom ", "•	Users often choose system functions by mistake.Provide a clearly marked out to leave an unwanted state without having to go through an extended dialogue. Support undo and redo", "Fails. Hard to find and get to where you want to be."),
-  createData("Consistency and standards ", "•	Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.", "Fails. The site is totally inconsistent in the design across pages and navigation."),
-  createData("Error prevention ", "•	Even better than good error messages is a careful design which prevents a problem from occurring in the first place.", "Fails. A user could easily get lost in the site and not be sure of where they are."),
-  createData("Recognition rather than recall ", "•	Make objects, actions, and options visible. User should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.", "Fails."),
-  ,createData("Flexibility and efficiency of use ", "•	Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user so that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.", "Fails."),
-  createData("Aesthetic and minimalist design ", "•	Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.", "Fails. Too much information on the home page laid out and formatted inconsistently. Your attention is drawn all over the page. No visual hierarchy established."),
-  createData("Help users recognize, diagnose, and recover from errors ", "•	Expressed in plain language (no codes) Precisely indicate the problem Constructively suggest a solution. ", "Fails."),
-  createData("Help and documentation", "•	Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Help  information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.", "Fails. They provide an FAQ page, but the formatting makes it confusing to read and absorb the information.")
+  createData("Match between system and the real world ", "Speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.", "Fails. The website speaks the user’s language, but some information is out of order or not as well organized as it could be for users to find what they are searching for."),
+  createData("User control and freedom ", "Users often choose system functions by mistake.Provide a clearly marked out to leave an unwanted state without having to go through an extended dialogue. Support undo and redo", "Fails. Hard to find and get to where you want to be."),
+  createData("Consistency and standards ", "Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.", "Fails. The site is totally inconsistent in the design across pages and navigation."),
+  createData("Error prevention ", "Even better than good error messages is a careful design which prevents a problem from occurring in the first place.", "Fails. A user could easily get lost in the site and not be sure of where they are."),
+  createData("Recognition rather than recall ", "Make objects, actions, and options visible. User should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.", "Fails."),
+  ,createData("Flexibility and efficiency of use ", "Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user so that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.", "Fails."),
+  createData("Aesthetic and minimalist design ", "Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.", "Fails. Too much information on the home page laid out and formatted inconsistently. Your attention is drawn all over the page. No visual hierarchy established."),
+  createData("Help users recognize, diagnose, and recover from errors ", "Expressed in plain language (no codes) Precisely indicate the problem Constructively suggest a solution. ", "Fails."),
+  createData("Help and documentation", "Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Help  information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.", "Fails. They provide an FAQ page, but the formatting makes it confusing to read and absorb the information.")
  ];
 const WestSide = () => {
   return (
@@ -190,7 +190,7 @@ const WestSide = () => {
             <Typography variant="h2">
               1.Heuristic Analysis
             </Typography>
-            <TableContainer component={Paper}>
+            <TableContainer className="tableHeuristic">
      <Table aria-label="simple table">
        <TableHead>
          <TableRow>
@@ -380,7 +380,7 @@ Thank you for your time!
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} lg={12} mb={8}>
-          <Typography variant="h5" >
+          <Typography variant="h5">
               Define
             </Typography>
            
