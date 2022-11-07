@@ -45,6 +45,8 @@ nav .active {
 nav button a:hover {
   color: #FF530D;
   font-weight: 600;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
 }
 nav .contactButton a{
   color: #131313;
@@ -60,9 +62,13 @@ nav .contactButton {
 nav .contactButton:hover {
   background-color: #FF530D;
   color:#fff;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
 }
 nav .contactButton:hover a {
   color:#fff;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
 }
 .MuiTypography-h1.display {
   font-size: clamp(1.602rem, -0.1026rem + 3.189vw, 3.052rem);
