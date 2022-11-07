@@ -1,25 +1,19 @@
 import { createTheme, responsiveFontSizes } from "@mui/material/styles";
-import { red, pink, green, purple, grey, blue } from "@mui/material/colors";
+import { red, pink, green, purple, grey, amber, darkOrange, blue, orange } from "@mui/material/colors";
 
 const lightTheme = createTheme({
   palette: {
     primary: {
-      main: purple["A700"],
+      main: amber["A700"],
     },
     secondary: {
       main: grey[50],
     },
   },
-  overrides: {
-    MuiCssBaseline: {
-      "@global": {
-        body: {
-          background: "rgb(242,242,242)",
-          background:
-            "linear-gradient(180deg, rgba(242,242,242,1) 0%, rgba(209,209,209,1) 33%, rgba(195,195,195,1) 100%);",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
-        },
+  MuiAppBar: {
+    styleOverrides: {
+      colorPrimary: {
+        backgroundColor: "red"
       },
     },
   },

@@ -27,6 +27,8 @@ import { alpha } from "@mui/material";
 import lightTheme from '../styles/theme/lightTheme';
 import { useRouter } from 'next/router';
 import ClearTwoToneIcon from '@mui/icons-material/ClearTwoTone';
+import Image from "next/image";
+import myLoader from "../components/Loader";
 
 const drawerWidth = 240;
 const navItems = ['Story', 'Media', 'Contact'];
@@ -65,7 +67,7 @@ function DrawerAppBar(props) {
   };
   
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1rem', color:'#aa00ff', }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left', fontSize:'1rem', color:'#FF9E19', }}>
        <List sx={{ horizontal: 'right',}}>
        <Link href="/"><ListItemButton sx={{ textAlign: 'center' }}>Home</ListItemButton></Link>
        <Link href="/story"><ListItemButton sx={{ textAlign: 'center' }}>Story</ListItemButton></Link>
@@ -80,7 +82,7 @@ function DrawerAppBar(props) {
    
     <Box sx={{ display: 'flex', }}>  
     <HideOnScroll {...props}>
-      <AppBar component="nav" position="fixed" className="navBG" elevation={2} sx={{width:'100%'}}>
+      <AppBar component="nav" position="fixed" elevation={0} className="navBG" sx={{width:'100%'}}>
       <Box component="div" direction="row" display='flex' alignItems='center' justifyContent='center'>
         <Toolbar display='flex'  
         sx={{ minHeight:{xs:'64px', 
@@ -101,11 +103,17 @@ function DrawerAppBar(props) {
               display: { xs: 'block', md: 'flex' },
               fontWeight: 700,
               letterSpacing: '.2rem',
-              color: 'white',
+              color: '#fff',
               textDecoration: 'none',
             }}
           >
-          WORLDSHAKER
+          <Image 
+          loader={myLoader}
+          src="assets/logows.png" 
+          width={56} height={56} 
+          alt="Logo">
+
+          </Image>
           </Typography>
             </Box>
           <IconButton
@@ -161,7 +169,7 @@ function DrawerAppBar(props) {
           }}
           sx={{
             display: { xs: 'block', sm: 'block', md:'none', horizontal:'right' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, backgroundColor:'#eeeeee',},
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, backgroundColor:'#fff',},
           }}
         >
           {drawer}

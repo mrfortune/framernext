@@ -10,7 +10,7 @@ const FooterNav = () => {
   return (
     <div>
       <Paper
-        className="navBG"
+        className="footerBG"
         square={true}
         sx={{ bottom: 0, left: 0, right: 0, color: "#fff" }}
         elevation={3}

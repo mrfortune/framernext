@@ -49,8 +49,8 @@ const Contact = () => {
             <Typography variant="body1">Cell: 1.646.620.4438</Typography>
             <Typography
               color="primary"
-              varian="button"
-              sx={{ textDecoration: "none" }}
+              variant="button"
+              sx={{ textDecoration: "none", fontSize:'1.5rem' }}
             >
               <Mailto
                 email="rharris@worldshaker.com"
