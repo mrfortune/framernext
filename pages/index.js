@@ -186,7 +186,7 @@ export default function Home() {
                     data-visualization and ad campaign management tools.
                   </Typography>
 
-                  <Button size="small" variant="text" color="primary">
+                  <Button size="small" variant="text" sx={{color:'#FF5722'}}>
                     <Link href="/fade-solutions"> Read More...</Link>
                   </Button>
                 </CardContent>
@@ -234,7 +234,7 @@ export default function Home() {
                     sheprescue.org.
                   </Typography>
 
-                  <Button size="small" variant="text" color="primary">
+                  <Button size="small" variant="text" sx={{color:'#FF5722'}}>
                     <Link href="/west-side-german-shepherd"> Read More...</Link>
                   </Button>
                 </CardContent>

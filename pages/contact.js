@@ -50,7 +50,7 @@ const Contact = () => {
             <Typography
               color="primary"
               variant="button"
-              sx={{ textDecoration: "none", fontSize:'1.5rem' }}
+              sx={{ textDecoration: "none", fontSize:'1.5rem', color:'#FF5722' }}
             >
               <Mailto
                 email="rharris@worldshaker.com"
