@@ -117,7 +117,7 @@ function DrawerAppBar(props) {
           </Typography>
             </Box>
           <IconButton
-            color="primary"
+            color="secondary"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
@@ -141,7 +141,7 @@ function DrawerAppBar(props) {
      </a>
 </Link>
 </Button>
-<Button className="contactButton" variant="contained">
+<Button className="contactButton" variant="contained" color="primary">
   <Link href="/contact">
   <a className={currentRoute === "/contact" 
        ? "active" 

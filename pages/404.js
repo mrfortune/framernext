@@ -11,7 +11,7 @@ const Custom404 = () => {
 	
 	<Grid item xs={12} sm={12} md={12} lg={12}>
  <SentimentVeryDissatisfiedIcon/> 
-      <Typography variant="body1" color="primary">Sorry, but this page does not exist.</Typography>
+      <Typography variant="body1" color="secondary">Sorry, but this page does not exist.</Typography>
     <Link href="/"><a>Return to the home page.</a></Link>
   </Grid>
     </Grid>

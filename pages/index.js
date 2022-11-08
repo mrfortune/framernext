@@ -68,7 +68,7 @@ export default function Home() {
             </Typography>
             <motion.div>
             <Button
-              color="primary"
+              color="secondary"
               variant="contained"
               size="large"
               sx={{ width: "160px" }}

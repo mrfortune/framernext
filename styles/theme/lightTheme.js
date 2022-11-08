@@ -1,13 +1,13 @@
 import { createTheme, responsiveFontSizes } from "@mui/material/styles";
-import { red, pink, green, purple, grey, amber, darkOrange, blue, orange } from "@mui/material/colors";
+import { red, pink, green, purple, grey, amber, darkOrange, blue, orange, deepOrange } from "@mui/material/colors";
 
 const lightTheme = createTheme({
   palette: {
     primary: {
-      main: amber["A700"],
+       main: blue[700],
     },
     secondary: {
-      main: grey[50],
+      main: deepOrange["500"],
     },
   },
   MuiAppBar: {
