@@ -48,6 +48,9 @@ nav button a:hover {
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
     transition: color 1s; /* For modern browsers */
 }
+.MuiButton-root{
+  border-radius:2rem;
+}
 nav .contactButton.MuiButton-root{
   background-color:#ff5722;
 }
