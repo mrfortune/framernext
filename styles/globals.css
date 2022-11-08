@@ -52,10 +52,9 @@ nav .contactButton.MuiButton-root{
   background-color:#ff5722;
 }
 nav .contactButton a{
-  color: #131313;
+  color:#fff;
 }
 nav .contactButton .active {
- 
   color: rgb(248, 247, 248);
   font-weight: 600;
 }
@@ -64,12 +63,12 @@ nav .contactButton {
 }
 nav .contactButton:hover {
   background-color: #FF530D;
-  color:#fff;
+  color:#0837FF;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
   transition: color 1s; /* For modern browsers */
 }
 nav .contactButton:hover a {
-  color:#fff;
+  color:#0837FF;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
   transition: color 1s; /* For modern browsers */
 }
