@@ -43,7 +43,7 @@ nav .active {
   font-weight: 600;
 }
 nav button a:hover {
-  color: #FF530D;
+  color: #FF3C00;
   font-weight: 600;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
     transition: color 1s; /* For modern browsers */
@@ -52,7 +52,7 @@ nav button a:hover {
   border-radius:2rem;
 }
 nav .contactButton.MuiButton-root{
-  background-color:#ff5722;
+  background-color:#FF3C00;
 }
 nav .contactButton a{
   color:#fff;
@@ -65,7 +65,7 @@ nav .contactButton {
   font-weight: 600;
 }
 nav .contactButton:hover {
-  background-color: #FF530D;
+  background-color: #FF3C00;
   color:#0837FF;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
   transition: color 1s; /* For modern browsers */
@@ -177,8 +177,8 @@ a {
   overflow: hidden;
 }
 .navBG {
-  /* background: rgb(41,98,255); */
-  background: linear-gradient(180deg, rgba(41,98,255,1) 0%, rgba(0,57,203,1) 100%);
+  background: rgb(41,98,255);
+  background: linear-gradient(180deg, rgba(41,98,255,0.8870141806722689) 0%, rgba(25,70,255,1) 100%);
 }
 .footerBG {
   background: rgb(38,47,128);
@@ -227,19 +227,20 @@ background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, 
 }
 .wgsrHero {
   /*background: rgb(11,11,11);*/
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom,
       rgba(11, 11, 11, 0.8) 0%,
       rgba(65, 65, 65, 0.81) 52%,
       rgba(42, 42, 42, 0.81) 100%
     ),
-    url("/assets/wgsr_hero.png");
+    url("/assets/wgsr_hero.png"); */
+  /* background-image: url("/assets/wgsr_hero.png"); */
   height: auto;
-  background-size: cover;
-  width: 100%;
+  /* background-size: cover; */
+  max-width: 900px;
   color: whitesmoke;
-  min-height: 270px;
-  background-position: center;
+  min-height: 720px;
+  /* background-position: center center; */
 }
 
 /* .MuiGrid-container{
@@ -400,7 +401,7 @@ footer .MuiGrid-item{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
-    background-image: url("/assets/iPhone428.png"); 
+    background-image: url("/assets/iPhone428_bg2.png"); 
     padding: 8px;
     min-height: 45rem;
   }
@@ -444,7 +445,7 @@ footer .MuiGrid-item{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width:600px) and (max-width:768px) {
   .homeHero {
-    background-image: url("/assets/Tablet768.png"); 
+    background-image: url("/assets/Tablet768_bg2.png"); 
     padding: 8px;
     min-height: 45rem;
   }
@@ -464,7 +465,7 @@ footer .MuiGrid-item{
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440.png"); 
+    background-image: url("/assets/Desktop1440_bg2.png"); 
     padding: 8px;
     min-height: 45rem;
   }
@@ -487,7 +488,7 @@ footer .MuiGrid-item{
 @media only screen and (min-width:900px) and (max-width:1200px) {
   
  .homeHero {
-    background-image: url("/assets/Desktop1440.png"); 
+    background-image: url("/assets/Desktop1440_bg2.png"); 
     position: relative;
     padding: 8px;
     min-height: 45rem;
@@ -502,7 +503,7 @@ footer .MuiGrid-item{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width:1200px) and (max-width:1440px) {
   .homeHero {
-    background-image: url("/assets/Desktop1440.png"); 
+    background-image: url("/assets/Desktop1440_bg2.png"); 
     position: relative;
     padding: 8px;
     height: 100vh;
@@ -512,7 +513,7 @@ footer .MuiGrid-item{
 }
 @media only screen and (min-width:1440px) and (max-width:1920px) {
   .homeHero {
-    background-image: url("/assets/Desktop1920.png"); 
+    background-image: url("/assets/Desktop1920_bg2.png"); 
     position: relative;
     padding: 8px;
     height: 100vh;
@@ -523,7 +524,7 @@ footer .MuiGrid-item{
 }
 @media only screen and (min-width:1920px) and (max-width:2560px) {
   .homeHero {
-    background-image: url("/assets/Desktop2560.png"); 
+    background-image: url("/assets/Desktop2560_bg2.png"); 
     position: relative;
     padding: 8px;
     height: 100vh;

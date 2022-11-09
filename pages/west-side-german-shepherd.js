@@ -73,14 +73,25 @@ const WestSide = () => {
   return (
     <div className="wgsr">
       <Meta title="Case Study::West-Side German Shepherd Rescue" />
-      <Paper
-        square={true}
-        className="wgsrHero"
-        mt={0}
-        sx={{ minHeight: "50vh", color: "#fff" }}
+      <Box
+        component="div"
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        mb={4}
+        mt={10}
+        sx={{ flexGrow: 1 }}
       >
+       <Image loader={myLoader}
+       src="wgsr_hero_study.png" 
+       width={900} 
+       height={506} 
+       alt="WGSR Hero">
+       </Image>
+         
+      </Box>
+     
         <Box
-          mt={8}
           component="div"
           display="flex"
           justifyContent="center"
@@ -147,8 +158,7 @@ const WestSide = () => {
             </Grid>
           </Grid>
         </Box>
-      </Paper>
-
+    
       <Box
         component="div"
         display="flex"

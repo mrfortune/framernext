@@ -7,7 +7,7 @@ const lightTheme = createTheme({
        main: blue[700],
     },
     secondary: {
-      main: deepOrange["500"],
+      main: deepOrange["A400"],
     },
   },
   MuiAppBar: {
