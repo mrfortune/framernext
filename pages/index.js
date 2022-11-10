@@ -58,7 +58,7 @@ export default function Home() {
             <Typography
             className="headerBody"
               variant="body1"
-              mb={2}
+              mb={4}
               sx={{
                 fontWeight: "500",
                 textTransform: "none",
