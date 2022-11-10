@@ -43,7 +43,7 @@ nav .active {
   font-weight: 600;
 }
 nav button a:hover {
-  color: #FF3C00;
+  color: #FF3d00;
   font-weight: 600;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
     transition: color 1s; /* For modern browsers */
@@ -52,7 +52,7 @@ nav button a:hover {
   border-radius:2rem;
 }
 nav .contactButton.MuiButton-root{
-  background-color:#FF3C00;
+  background-color:#FF3d00;
 }
 nav .contactButton a{
   color:#fff;
@@ -65,7 +65,7 @@ nav .contactButton {
   font-weight: 600;
 }
 nav .contactButton:hover {
-  background-color: #FF3C00;
+  background-color: #FF3d00;
   color:#0837FF;
   -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
   transition: color 1s; /* For modern browsers */
@@ -402,7 +402,7 @@ footer .MuiGrid-item{
 @media only screen and (min-width:428px) and (max-width: 600px) {
   .homeHero {
     background-image: url("/assets/iPhone428_bg2.png"); 
-    padding: 8px;
+    padding: 16px;
     min-height: 45rem;
   }
  .story{
@@ -446,7 +446,7 @@ footer .MuiGrid-item{
 @media only screen and (min-width:600px) and (max-width:768px) {
   .homeHero {
     background-image: url("/assets/Tablet768_bg2.png"); 
-    padding: 8px;
+    padding: 16px;
     min-height: 45rem;
   }
   .wgsr .MuiGrid-item,
