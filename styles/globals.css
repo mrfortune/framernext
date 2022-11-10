@@ -408,18 +408,18 @@ footer .MuiGrid-item{
  .story{
    padding:1rem;
  }
- .wgsr .MuiGrid-item,
- .fade .MuiGrid-item,
- .contact .MuiGrid-item,
- .homePage .MuiGrid-item,
+.wgsr .MuiGrid-item,
+.fade .MuiGrid-item,
+.contact .MuiGrid-item,
+.homePage .MuiGrid-item,
 .story .MuiGrid-item{
     padding-left:16px;
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:16px;
+    margin-right:16px;
   }
   footer .MuiGrid-item{
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:16px;
+    margin-right:16px;
   }
   /* .MuiCard-root{
     margin-left:1rem;
@@ -453,14 +453,14 @@ footer .MuiGrid-item{
   .fade .MuiGrid-item,
   .contact .MuiGrid-item,
   .homePage .MuiGrid-item,
-   .story .MuiGrid-item{
+  .story .MuiGrid-item{
      padding-left:16px;
-     margin-left:8px;
-     margin-right:8px;
+     margin-left:16px;
+     margin-right:16px;
    }
   footer .MuiGrid-item{
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:16px;
+    margin-right:16px;
   }
 } 
 @media only screen and (min-width:768px) and (max-width:900px) {
@@ -469,31 +469,31 @@ footer .MuiGrid-item{
     padding: 8px;
     min-height: 45rem;
   }
-  .wgsr .MuiGrid-item,
-  .fade .MuiGrid-item,
-  .contact .MuiGrid-item,
-  .homePage .MuiGrid-item,
-  .story .MuiGrid-item{
+.wgsr .MuiGrid-item,
+.fade .MuiGrid-item,
+.contact .MuiGrid-item,
+.homePage .MuiGrid-item,
+.story .MuiGrid-item{
      padding-left:16px;
      margin-left:8px;
      margin-right:8px;
-   }
-  footer .MuiGrid-item{
-    margin-left:8px;
-    margin-right:8px;
+}
+footer .MuiGrid-item{
+    margin-left:16px;
+    margin-right:16px;
   }
 } 
 
 /* Large devices (lops/desktops, 992px and up) */
 @media only screen and (min-width:900px) and (max-width:1200px) {
   
- .homeHero {
+.homeHero {
     background-image: url("/assets/Desktop1440_bg2.png"); 
     position: relative;
     padding: 8px;
     min-height: 45rem;
   }  
-  .story .MuiGrid-item{
+.story .MuiGrid-item{
     padding-left:16px;
     margin-left:8px;
     margin-right:8px;
