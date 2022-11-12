@@ -181,8 +181,8 @@ a {
   background: linear-gradient(180deg, rgba(41,98,255,0.8870141806722689) 0%, rgba(25,70,255,1) 100%);
 }
 .footerBG {
-  background: rgb(38,47,128);
-background: linear-gradient(180deg, rgba(38,47,128,1) 0%, rgba(0,13,128,1) 56%, rgba(0,25,255,1) 100%);
+  background: rgb(27,60,179);
+background: linear-gradient(180deg, rgba(27,60,179,1) 35%, rgba(13,64,255,1) 100%);
   /* background: rgb(27,27,27);
 background: linear-gradient(180deg, rgba(27,27,27,1) 19%, rgba(38,38,38,1) 53%, rgba(10,10,10,1) 100%
   ); */

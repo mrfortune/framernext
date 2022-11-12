@@ -12,6 +12,7 @@ import Grid from "@mui/material/Grid";
 import lightTheme from "../styles/theme/lightTheme";
 import { global } from "styled-jsx/css";
 import Meta from "../components/Meta";
+import contactform from "../components/contactform";
 
 function Mailto({ email, subject, body, ...props }) {
   return (
@@ -59,6 +60,7 @@ const Contact = () => {
               >
                 Please email me to discuss your next project.
               </Mailto>
+              <contactform/>
             </Typography>
           </Grid>
         </Grid>
