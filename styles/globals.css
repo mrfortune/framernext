@@ -92,7 +92,7 @@ nav .contactButton:hover a {
   font-size: clamp(1rem, -0.1026rem + 3.189vw, 1.2rem);
   /* background-image: linear-gradient(to bottom, #CBCBCB, #FF5B19); */
   color:#F7F7F7;
-  font-weight:600;
+  font-weight:400;
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -478,8 +478,8 @@ background-color:#00FFBC;
 .homePage .MuiGrid-item,
 .story .MuiGrid-item{
      padding-left:16px;
-     margin-left:8px;
-     margin-right:8px;
+     margin-left:16px;
+     margin-right:16px;
 }
 footer .MuiGrid-item{
     margin-left:16px;
@@ -493,13 +493,13 @@ footer .MuiGrid-item{
 .homeHero {
     background-image: url("/assets/Desktop1440_bg2.png"); 
     position: relative;
-    padding: 8px;
+    padding: 16px;
     min-height: 45rem;
   }  
 .story .MuiGrid-item{
     padding-left:16px;
-    margin-left:8px;
-    margin-right:8px;
+    margin-left:16px;
+    margin-right:16px;
   }
 } 
 
