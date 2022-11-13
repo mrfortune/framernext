@@ -64,7 +64,7 @@ const Story = () => {
               Robert S. Harris
             </Typography>
             <Typography variant="h4">
-              Product Manager &amp; Product(UX) Designer &amp; Developer
+              Founder, Product Manager &amp; Product(UX) Designer &amp; Developer
             </Typography>
             </Box>
             </Box>
