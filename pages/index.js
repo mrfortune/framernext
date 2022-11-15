@@ -19,6 +19,8 @@ import { motion } from "framer-motion";
 import { NextUIProvider } from "@nextui-org/react";
 import Meta from "../components/Meta";
 import { AnimatePresence } from "framer-motion";
+import { Card5 } from '../components/Card5';
+import { Card1 } from '../components/Card1';
 
 export default function Home() {
   return (
@@ -147,14 +149,17 @@ export default function Home() {
               Case Studies
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
+          <Grid item xs={12} sm={12} md={6} lg={6} xl={6} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}
   transition={{ duration: 2.5 }}
   >
-            <Card
+    
+        <Card1 />
+    
+            {/* <Card
               square={false}
               className="MuiPaper-rounded"
               sx={{ display: "flex" }}
@@ -192,17 +197,20 @@ export default function Home() {
                 </CardContent>
               </Box>
               
-            </Card>
+            </Card> */}
             </motion.div>
           </Grid>
-          <Grid  item  xs={12} sm={12} md={12} lg={12} xl={12} mb={8}>
+          <Grid  item  xs={12} sm={12} md={6} lg={6} xl={6} mb={8}>
           <motion.div
   initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}
   transition={{ duration: 2.5 }}
   >
-            <Card
+    
+        <Card5 />
+     
+            {/* <Card
               square={false}
               className="MuiPaper-rounded"
               sx={{ display: "flex" }}
@@ -239,7 +247,7 @@ export default function Home() {
                   </Button>
                 </CardContent>
               </Box>
-            </Card>
+            </Card> */}
             </motion.div>
           </Grid>
 
