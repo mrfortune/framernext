@@ -2,6 +2,9 @@ import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 import { red, pink, green, purple, grey, amber, darkOrange, blue, orange, deepOrange } from "@mui/material/colors";
 
 const lightTheme = createTheme({
+  typography:{
+    fontFamily: 'futura-pt',
+  },
   palette: {
     primary: {
        main: blue[700],
